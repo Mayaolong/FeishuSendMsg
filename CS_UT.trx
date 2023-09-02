@@ -1,0 +1,2638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6b409a5c-c5eb-41be-9ec0-b48ee27bece1" name="yaolong.ma@D1301004384 2023-06-12 14:11:54" runUser="UNITED-IMAGING\yaolong.ma" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-06-12T14:11:54.9457015+08:00" queuing="2023-06-12T14:11:54.9457015+08:00" start="2023-06-12T14:11:43.7229203+08:00" finish="2023-06-12T14:13:56.6755228+08:00" />
+  <TestSettings name="default" id="a2d97bba-1ad8-4ffb-ac29-9a8c7d6601f5">
+    <Deployment runDeploymentRoot="ylloveyl_LAPTOP-T43BJRND_2023-08-27_18_41_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8edec7f3-7767-4fd6-b2ec-e68fc126561e" testId="20a3cf85-d401-4562-a367-fd4ed2c82592" testName="TheRequestIsValidAndNavigationButtonIsEnable_Variant3" computerName="D1301004384" duration="00:00:00.0047125" startTime="2023-06-12T14:12:36.3475212+08:00" endTime="2023-06-12T14:12:36.3525085+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8edec7f3-7767-4fd6-b2ec-e68fc126561e">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation button is enable&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationButtonIsEnable() (0.0s)&#xD;
+And current navigation's transparency value  is vaild&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSTransparencyValueIsVaild() (0.0s)&#xD;
+And current navigation's check state  is 0&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSCheckStateIs(0) (0.0s)&#xD;
+When received request can be parsed,value is 1&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenReceivedRequestCanBeParsedValueIs(1) (0.0s)&#xD;
+And Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then the function return is "true"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnIs("true") (0.0s)&#xD;
+And Notify uLingo  execute result is -1&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoExecuteResultIs(-1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba4b0d3e-b434-42a6-acbb-3923cd43f337" testId="d0c63537-4c10-4985-a957-28ae7f2b85c2" testName="DifferenceBetweenTwoNumbers_Variant6" computerName="D1301004384" duration="00:00:00.0025033" startTime="2023-06-12T14:13:21.5041487+08:00" endTime="2023-06-12T14:13:21.5071400+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba4b0d3e-b434-42a6-acbb-3923cd43f337">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is -2147483648 ,the subtrahend is 0&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(-2147483648, 0) (0.0s)&#xD;
+Then the result should be -2147483648&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(-2147483648) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c64a4470-b53c-46a6-a5da-905da41005ec" testId="f584ccb3-e35b-42da-b919-869767c8cf82" testName="ReceivedMessagesParameterIsNull" computerName="D1301004384" duration="00:00:00.0052287" startTime="2023-06-12T14:12:47.5097275+08:00" endTime="2023-06-12T14:12:47.5156834+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c64a4470-b53c-46a6-a5da-905da41005ec">
+      <Output>
+        <StdOut>TestContext Messages:
+Given received message's parameter is null&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenReceivedMessageSParameterIsNull() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="19341cec-4623-431d-9fc6-89a872c7a305" testId="580d1e7e-abbc-45a4-8da2-430c6f01a48d" testName="CalculateSquareDifferenceWillThrowOverflowException_2147483600" computerName="D1301004384" duration="00:00:00.0012990" startTime="2023-06-12T14:13:36.0536422+08:00" endTime="2023-06-12T14:13:36.0546392+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19341cec-4623-431d-9fc6-89a872c7a305">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the square difference of first number 2147483600 ,the second number 10&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheSquareDifferenceOfFirstNumberTheSecondNumber(2147483600, 10) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e477a771-ca76-4f63-8713-f1dbdab04227" testId="a789f9f6-2daf-4e14-9283-226cd3a0f50e" testName="ThisRequestWillBeIgnoredWhenTheDataOfRequestExamLockIsNotTheAgreedUponValue" computerName="D1301004384" duration="00:00:00.0105868" startTime="2023-06-12T14:11:55.3945011+08:00" endTime="2023-06-12T14:11:55.4054727+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e477a771-ca76-4f63-8713-f1dbdab04227">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset data&#xD;
+-&gt; done: ExamLockSteps.GivenResetData() (0.0s)&#xD;
+Given the data of request exam lock is not the agreed upon value&#xD;
+-&gt; done: ExamLockSteps.GivenTheDataOfRequestExamLockIsNotTheAgreedUponValue() (0.0s)&#xD;
+When Request to set exam lock&#xD;
+-&gt; done: ExamLockSteps.WhenRequestToSetExamLock() (0.0s)&#xD;
+Then This request will be ignored,function return value is error input parameter&#xD;
+-&gt; done: ExamLockSteps.ThenThisRequestWillBeIgnoredFunctionReturnValueIsErrorInputParameter() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="8953810d-df1e-4f7a-87fc-9c603fb00c5c" testId="1274faa9-4eb9-4326-ade7-c64369f53b3a" testName="TheRequestIsValidAndNavigationButtonIsEnable_Variant2" computerName="D1301004384" duration="00:00:00.0070624" startTime="2023-06-12T14:12:34.9549358+08:00" endTime="2023-06-12T14:12:34.9629449+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8953810d-df1e-4f7a-87fc-9c603fb00c5c">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation button is enable&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationButtonIsEnable() (0.0s)&#xD;
+And current navigation's transparency value  is vaild&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSTransparencyValueIsVaild() (0.0s)&#xD;
+And current navigation's check state  is 0&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSCheckStateIs(0) (0.0s)&#xD;
+When received request can be parsed,value is 0&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenReceivedRequestCanBeParsedValueIs(0) (0.0s)&#xD;
+And Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then the function return is "false"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnIs("false") (0.0s)&#xD;
+And Notify uLingo  execute result is 1&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoExecuteResultIs(1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b2ba8ac6-acc6-4cf2-aa91-b10eea300b27" testId="4ab6344d-0808-4350-ad1b-0e74e2c6bc00" testName="DifferenceBetweenTwoNumbers_Variant7" computerName="D1301004384" duration="00:00:00.0015712" startTime="2023-06-12T14:13:22.7550884+08:00" endTime="2023-06-12T14:13:22.7570834+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2ba8ac6-acc6-4cf2-aa91-b10eea300b27">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is -2147483648 ,the subtrahend is -2147483648&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(-2147483648, -2147483648) (0.0s)&#xD;
+Then the result should be 0&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(0) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e34965bc-d394-4517-b664-559608ccffd6" testId="d64f3df8-fd67-49b8-93f6-daea14d2c704" testName="ExamFluorocopyProtocolListIsNull" computerName="D1301004384" duration="00:00:00.0041813" startTime="2023-06-12T14:12:22.4590567+08:00" endTime="2023-06-12T14:12:22.4630455+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e34965bc-d394-4517-b664-559608ccffd6">
+      <Output>
+        <StdOut>TestContext Messages:
+Given fluorocopy protocol list is null&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenFluorocopyProtocolListIsNull() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d13a796-8677-42a6-b9a3-108129c0c821" testId="402d8def-85e2-47b6-89b5-714963da0243" testName="AddTwoNumbersWillThrowOverflowException_Variant1" computerName="D1301004384" duration="00:00:00.0013607" startTime="2023-06-12T14:13:08.9659470+08:00" endTime="2023-06-12T14:13:08.9679129+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d13a796-8677-42a6-b9a3-108129c0c821">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is -2147483648 ,the second number is -2147483648&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(-2147483648, -2147483648) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc6c3e68-2d2e-4e0c-adeb-06de4362f057" testId="d7ad55b5-c7ef-40d3-8089-12c8d13aa2c0" testName="ThisRequestWillBeIgnoredWhenScuIsOfflineAndDontExitValidValue" computerName="D1301004384" duration="00:00:00.0166105" startTime="2023-06-12T14:11:58.6926155+08:00" endTime="2023-06-12T14:11:58.7095701+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc6c3e68-2d2e-4e0c-adeb-06de4362f057">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset data&#xD;
+-&gt; done: ExamLockSteps.GivenResetData() (0.0s)&#xD;
+Given SCU is offline&#xD;
+-&gt; done: ExamLockSteps.GivenSCUIsOffline() (0.0s)&#xD;
+And Don't Exist valid value&#xD;
+-&gt; done: ExamLockSteps.GivenDonTExistValidValue() (0.0s)&#xD;
+When Request to set exam lock&#xD;
+-&gt; done: ExamLockSteps.WhenRequestToSetExamLock() (0.0s)&#xD;
+Then This request will be ignored,function return value is fail&#xD;
+-&gt; done: ExamLockSteps.ThenThisRequestWillBeIgnoredFunctionReturnValueIsFail() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="6cd40596-6098-4f40-9d5d-56b34a388904" testId="37182e04-e09e-406d-90f4-553846aab42e" testName="WillNotifyFeReturnLastValidValueWhenScuIsOfflineAndExitValidValue" computerName="D1301004384" duration="00:00:00.8991579" startTime="2023-06-12T14:11:56.7684656+08:00" endTime="2023-06-12T14:11:57.6680750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cd40596-6098-4f40-9d5d-56b34a388904">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset data&#xD;
+-&gt; done: ExamLockSteps.GivenResetData() (0.0s)&#xD;
+Given SCU is offline&#xD;
+-&gt; done: ExamLockSteps.GivenSCUIsOffline() (0.0s)&#xD;
+And Exist valid value&#xD;
+-&gt; done: ExamLockSteps.GivenExistValidValue() (0.0s)&#xD;
+When Request to set exam lock&#xD;
+-&gt; done: ExamLockSteps.WhenRequestToSetExamLock() (0.9s)&#xD;
+Then This request will be ignored, return last valid value&#xD;
+-&gt; done: ExamLockSteps.ThenThisRequestWillBeIgnoredReturnLastValidValue() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="7555989a-baf9-4108-9eed-bf7a5ce30fc8" testId="781d681f-9a8f-4b56-a3a7-3a21e066b2d6" testName="TheRequestIsValidButNavigationsTransparencyValueIsInvalid_" computerName="D1301004384" duration="00:00:00.1019519" startTime="2023-06-12T14:12:41.9300499+08:00" endTime="2023-06-12T14:12:42.0337706+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7555989a-baf9-4108-9eed-bf7a5ce30fc8">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation's transparency value  is  """"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationSTransparencyValueIs("""") (0.0s)&#xD;
+When Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then notify uLingo the request failed executed&#xD;
+-&gt; error: 值不能为 null。&#xD;
+参数名: value (0.1s)&#xD;
+And the function return false&#xD;
+-&gt; skipped because of previous errors</StdOut>
+        <ErrorInfo>
+          <Message>Test method ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid_ threw exception: &#xD;
+System.ArgumentNullException: 值不能为 null。&#xD;
+参数名: value</Message>
+          <StackTrace>    在 Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)&#xD;
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)&#xD;
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)&#xD;
+   在 ExamBE_UT.Steps.RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoTheRequestFailedExecuted() 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Steps\RequestOfNavigationForUlingoCanBeExecutedSteps.cs:行号 202&#xD;
+   在 TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)&#xD;
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration)&#xD;
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)&#xD;
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()&#xD;
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.ScenarioCleanup()&#xD;
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid(String invalidTransparency, String[] exampleTags) 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Features\SelectNavigationForuLingo.feature:行号 41&#xD;
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid_() 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Features\SelectNavigationForuLingo.feature:行号 37&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0ae1398-d878-4769-b6e9-9282e7325737" testId="5cea1600-a67f-4deb-a6b3-f4b1baa3ac85" testName="DifferenceBetweenTwoNumbers_Variant4" computerName="D1301004384" duration="00:00:00.0016622" startTime="2023-06-12T14:13:18.7052746+08:00" endTime="2023-06-12T14:13:18.7072672+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0ae1398-d878-4769-b6e9-9282e7325737">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is -10 ,the subtrahend is -10&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(-10, -10) (0.0s)&#xD;
+Then the result should be 0&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(0) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="dc54a934-dea7-48ac-aa3d-c4484e41ca5e" testId="ee210cf1-8833-4cd6-b7d8-b06cdadf7946" testName="ReceivedMessagesParameterIsNull" computerName="D1301004384" duration="00:00:00.0169931" startTime="2023-06-12T14:12:12.6911056+08:00" endTime="2023-06-12T14:12:12.7080306+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc54a934-dea7-48ac-aa3d-c4484e41ca5e">
+      <Output>
+        <StdOut>TestContext Messages:
+Given received message's parameter is null&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.GivenReceivedMessageSParameterIsNull() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: CanExecuteForUnlingoRequestExamLockSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo  failed to execute&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenNotifyULingoFailedToExecute() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d65f5ec-b63c-4c5b-85b1-f832f60f896b" testId="7682c491-5d90-49a6-b10b-5512aa60a76b" testName="TheRequestIsValidAndNavigationButtonIsEnable_Variant1" computerName="D1301004384" duration="00:00:00.0049980" startTime="2023-06-12T14:12:33.5934780+08:00" endTime="2023-06-12T14:12:33.5984954+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d65f5ec-b63c-4c5b-85b1-f832f60f896b">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation button is enable&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationButtonIsEnable() (0.0s)&#xD;
+And current navigation's transparency value  is vaild&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSTransparencyValueIsVaild() (0.0s)&#xD;
+And current navigation's check state  is 1&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSCheckStateIs(1) (0.0s)&#xD;
+When received request can be parsed,value is 0&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenReceivedRequestCanBeParsedValueIs(0) (0.0s)&#xD;
+And Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then the function return is "true"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnIs("true") (0.0s)&#xD;
+And Notify uLingo  execute result is -1&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoExecuteResultIs(-1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="43da1b3d-8735-41f4-ad55-a9cb471c521f" testId="32951891-4015-4be6-a81f-03f63847aa55" testName="RoadmapStateIsSameToTheCurrentState" computerName="D1301004384" duration="00:00:00.0066982" startTime="2023-06-12T14:12:53.0467155+08:00" endTime="2023-06-12T14:12:53.0536970+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43da1b3d-8735-41f4-ad55-a9cb471c521f">
+      <Output>
+        <StdOut>TestContext Messages:
+Given The current fluorocopy protocol is the request protocol&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.GivenTheCurrentFluorocopyProtocolIsTheRequestProtocol() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo request state is same to system current state&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoRequestStateIsSameToSystemCurrentState() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="659e39cd-802b-4cae-817c-6c4eb2eba88a" testId="61431d03-eb5b-4d71-8d21-f5d996ef3124" testName="RequestCantBeExecutedAndNotifyUlingoWhenScIsOnlineAndSystemIsXRayOff" computerName="D1301004384" duration="00:00:00.0082180" startTime="2023-06-12T14:12:16.8802681+08:00" endTime="2023-06-12T14:12:16.8892414+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="659e39cd-802b-4cae-817c-6c4eb2eba88a">
+      <Output>
+        <StdOut>TestContext Messages:
+Given SCU is online&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.GivenSCUIsOnline() (0.0s)&#xD;
+And system is XRay off&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.GivenSystemIsXRayOff() (0.0s)&#xD;
+And request state is same to current state&#xD;
+-&gt; done: CanExecuteForUnlingoRequestExamLockSteps.GivenRequestStateIsSameToCurrentState() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: CanExecuteForUnlingoRequestExamLockSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo request state is same to system current state&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenNotifyULingoRequestStateIsSameToSystemCurrentState() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b88bf18d-2de7-4929-92af-140c66a9301f" testId="d4315729-02eb-4cd1-ad99-37765c9c1434" testName="TheRequestIsValidAndNavigationButtonIsEnable_Variant4" computerName="D1301004384" duration="00:00:00.0068378" startTime="2023-06-12T14:12:37.7629438+08:00" endTime="2023-06-12T14:12:37.7699248+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b88bf18d-2de7-4929-92af-140c66a9301f">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation button is enable&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationButtonIsEnable() (0.0s)&#xD;
+And current navigation's transparency value  is vaild&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSTransparencyValueIsVaild() (0.0s)&#xD;
+And current navigation's check state  is 0&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSCheckStateIs(0) (0.0s)&#xD;
+When received request can be parsed,value is 255&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenReceivedRequestCanBeParsedValueIs(255) (0.0s)&#xD;
+And Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then the function return is "false"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnIs("false") (0.0s)&#xD;
+And Notify uLingo  execute result is 3&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoExecuteResultIs(3) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="dc37ad81-1248-4240-80e6-d297f6241693" testId="68d2570e-470a-4e61-8ab7-c7aded1ee6a3" testName="SquareDifference_70" computerName="D1301004384" duration="00:00:00.0043602" startTime="2023-06-12T14:13:29.9602650+08:00" endTime="2023-06-12T14:13:29.9652830+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc37ad81-1248-4240-80e6-d297f6241693">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the square difference of first number 70 ,the second number 50&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheSquareDifferenceOfFirstNumberTheSecondNumber(70, 50) (0.0s)&#xD;
+Then the result should be 2400&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(2400) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="224d208e-e43e-4d01-997b-6fa0badc09bc" testId="f5e6cd4c-becd-4d24-9c1d-8ca1c1d9fc8f" testName="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant3" computerName="D1301004384" duration="00:00:00.0015131" startTime="2023-06-12T14:13:28.7748163+08:00" endTime="2023-06-12T14:13:28.7768143+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="224d208e-e43e-4d01-997b-6fa0badc09bc">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is 2147483647 ,the subtrahend is -2147483648&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(2147483647, -2147483648) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a85c65d9-714b-4caf-b079-18516f90a58d" testId="44b25c55-01e9-49c6-a8f8-0e043a6387a7" testName="TheRequestFunctionParameterIsEmpty" computerName="D1301004384" duration="00:00:00.0051922" startTime="2023-06-12T14:12:44.6225971+08:00" endTime="2023-06-12T14:12:44.6285804+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a85c65d9-714b-4caf-b079-18516f90a58d">
+      <Output>
+        <StdOut>TestContext Messages:
+When request function parameter is empty&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenRequestFunctionParameterIsEmpty() (0.0s)&#xD;
+Then notify uLingo the request failed executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoTheRequestFailedExecuted() (0.0s)&#xD;
+And the function return false&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnFalse() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d9479442-5264-4a3c-8615-1ec7ed89e7fe" testId="f67da5ef-c516-4bdf-b132-2609a43bef65" testName="TheRequestIsValidAndNavigationButtonIsEnable_Variant5" computerName="D1301004384" duration="00:00:00.0052110" startTime="2023-06-12T14:12:39.1112463+08:00" endTime="2023-06-12T14:12:39.1162337+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9479442-5264-4a3c-8615-1ec7ed89e7fe">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation button is enable&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationButtonIsEnable() (0.0s)&#xD;
+And current navigation's transparency value  is vaild&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSTransparencyValueIsVaild() (0.0s)&#xD;
+And current navigation's check state  is 0&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSCheckStateIs(0) (0.0s)&#xD;
+When received request can be parsed,value is -2&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenReceivedRequestCanBeParsedValueIs(-2) (0.0s)&#xD;
+And Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then the function return is "false"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnIs("false") (0.0s)&#xD;
+And Notify uLingo  execute result is 3&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoExecuteResultIs(3) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b52eeaca-1cb7-4bbd-a8fb-a5b2ce949b61" testId="a6198997-64f3-4a9c-895b-d77c55d4e270" testName="WillSendMsgToScWhenScuIsOnline" computerName="D1301004384" duration="00:00:00.0525655" startTime="2023-06-12T14:12:00.1070662+08:00" endTime="2023-06-12T14:12:00.1599259+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b52eeaca-1cb7-4bbd-a8fb-a5b2ce949b61">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset data&#xD;
+-&gt; done: ExamLockSteps.GivenResetData() (0.0s)&#xD;
+Given SCU is online&#xD;
+-&gt; done: ExamLockSteps.GivenSCUIsOnline() (0.0s)&#xD;
+And Set correct Input&#xD;
+-&gt; done: ExamLockSteps.GivenSetCorrectInput() (0.0s)&#xD;
+When Request to set exam lock&#xD;
+-&gt; done: ExamLockSteps.WhenRequestToSetExamLock() (0.0s)&#xD;
+Then This request will be execute,function return value is Success&#xD;
+-&gt; done: ExamLockSteps.ThenThisRequestWillBeExecuteFunctionReturnValueIsSuccess() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9ea43a74-8bb0-4e0e-90ab-ad2f67880aff" testId="ed15e660-7304-461a-a890-db68174f34ca" testName="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant1" computerName="D1301004384" duration="00:00:00.0013716" startTime="2023-06-12T14:13:26.3176982+08:00" endTime="2023-06-12T14:13:26.3196930+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ea43a74-8bb0-4e0e-90ab-ad2f67880aff">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is -2147483648 ,the subtrahend is 1&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(-2147483648, 1) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b406c459-7a15-46de-9f5a-e1505aed3fcb" testId="8be19e96-5161-4f91-9ca3-19ca9356d929" testName="RequestCantBeExecutedAndNotifyUlingoWhenSystemIsXRayOn" computerName="D1301004384" duration="00:00:00.0074410" startTime="2023-06-12T14:12:14.0932623+08:00" endTime="2023-06-12T14:12:14.1002425+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b406c459-7a15-46de-9f5a-e1505aed3fcb">
+      <Output>
+        <StdOut>TestContext Messages:
+Given system is XRay on&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.GivenSystemIsXRayOn() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: CanExecuteForUnlingoRequestExamLockSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9fccea49-9586-49a5-849f-4ddb6e5b6a42" testId="22c9b819-63d2-4fab-9fd6-d3da8ad60b3f" testName="ReceivedMessageIsNullOrEmpty" computerName="D1301004384" duration="00:00:00.0388777" startTime="2023-06-12T14:12:01.4755944+08:00" endTime="2023-06-12T14:12:01.5154880+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fccea49-9586-49a5-849f-4ddb6e5b6a42">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset Handle uLingo Command data&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenResetHandleULingoCommandData() (0.0s)&#xD;
+Given received message is empty string&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageIsEmptyString() (0.0s)&#xD;
+When Execute handle ulingo command function&#xD;
+-&gt; done: HandleuLingoCommandSteps.WhenExecuteHandleUlingoCommandFunction() (0.0s)&#xD;
+Then The size of the protocol collection and transmit Collection has not changed&#xD;
+-&gt; done: HandleuLingoCommandSteps.ThenTheSizeOfTheProtocolCollectionAndTransmitCollectionHasNotChanged() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f8ad066-d6e0-4a8a-864c-248144124c82" testId="85c1a0ee-5077-416d-bde2-fecf5526c35c" testName="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant2" computerName="D1301004384" duration="00:00:00.0014930" startTime="2023-06-12T14:13:27.5744249+08:00" endTime="2023-06-12T14:13:27.5764193+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f8ad066-d6e0-4a8a-864c-248144124c82">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is -2147483648 ,the subtrahend is 2147483647&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(-2147483648, 2147483647) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="32e65183-ff79-4b59-8eb6-d78d3899daa7" testId="7700d00c-e17e-4473-a205-1eab801d4b4d" testName="TestString_4" computerName="D1301004384" duration="00:00:00.0019883" startTime="2023-06-12T14:13:38.6388066+08:00" endTime="2023-06-12T14:13:38.6417999+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32e65183-ff79-4b59-8eb6-d78d3899daa7">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When first number ""4"" ,the second number """"&#xD;
+-&gt; done: CalculatorSteps.WhenFirstNumberTheSecondNumber(""4"", """") (0.0s)&#xD;
+Then the result will be is ""4""&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillBeIs(4) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="14604c06-7906-461f-b69e-52e8560cdb1d" testId="ce743020-c244-48f5-8bd2-a9e4ba3731f6" testName="TheRequestIsValidButNavigationButtonIsNotEnable_NotInit" computerName="D1301004384" duration="00:00:00.0165937" startTime="2023-06-12T14:12:29.3955782+08:00" endTime="2023-06-12T14:12:29.4125317+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14604c06-7906-461f-b69e-52e8560cdb1d">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation button is not enable,and value is "not init"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationButtonIsNotEnableAndValueIs("not init") (0.0s)&#xD;
+When Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then Notify uLingo  execute result is 3&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoExecuteResultIs(3) (0.0s)&#xD;
+And the function return false&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnFalse() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="aabac2b9-daee-4d85-852b-45dd8e287d45" testId="3b8bbd52-4dc6-45d4-a09c-56169973d2e9" testName="ReceivedMessageCantBeExecutedUnderEnterServiceWhenEnterService" computerName="D1301004384" duration="00:00:00.0092403" startTime="2023-06-12T14:12:06.9451898+08:00" endTime="2023-06-12T14:12:06.9541664+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aabac2b9-daee-4d85-852b-45dd8e287d45">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset Handle uLingo Command data&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenResetHandleULingoCommandData() (0.0s)&#xD;
+Given enter service&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenEnterService() (0.0s)&#xD;
+And received message can't be executed under enter service&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageCanTBeExecutedUnderEnterService() (0.0s)&#xD;
+When Execute handle ulingo command function&#xD;
+-&gt; done: HandleuLingoCommandSteps.WhenExecuteHandleUlingoCommandFunction() (0.0s)&#xD;
+Then The size of the protocol collection and transmit Collection has not changed&#xD;
+-&gt; done: HandleuLingoCommandSteps.ThenTheSizeOfTheProtocolCollectionAndTransmitCollectionHasNotChanged() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: HandleuLingoCommandSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="8df9518e-4803-4746-9a2e-9f2ec68c5fc1" testId="f94d9745-776d-4df6-9b65-41e75e785c91" testName="SystemCanExecuteTheRequest" computerName="D1301004384" duration="00:00:00.0088293" startTime="2023-06-12T14:12:27.9828116+08:00" endTime="2023-06-12T14:12:27.9917879+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8df9518e-4803-4746-9a2e-9f2ec68c5fc1">
+      <Output>
+        <StdOut>TestContext Messages:
+Given set system state is staticfy to execute&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenSetSystemStateIsStaticfyToExecute() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can execute,return true&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanExecuteReturnTrue() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="2539df79-8f2a-4c7f-a079-e47c04ef4a11" testId="03e51ac7-b945-40e9-abad-371953c3f505" testName="DifferenceBetweenTwoNumbers_Variant1" computerName="D1301004384" duration="00:00:00.0020379" startTime="2023-06-12T14:13:14.5123352+08:00" endTime="2023-06-12T14:13:14.5143306+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2539df79-8f2a-4c7f-a079-e47c04ef4a11">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is 50 ,the subtrahend is 70&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(50, 70) (0.0s)&#xD;
+Then the result should be -20&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(-20) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0bd825ea-3bb0-4e5e-9d6e-f4f15828dada" testId="08673d69-f049-4381-b792-4e02e00afee6" testName="ExamFluorocopyProtocolListIsNull" computerName="D1301004384" duration="00:00:00.0055868" startTime="2023-06-12T14:12:48.9083760+08:00" endTime="2023-06-12T14:12:48.9143605+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bd825ea-3bb0-4e5e-9d6e-f4f15828dada">
+      <Output>
+        <StdOut>TestContext Messages:
+Given fluorocopy protocol list is null&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenFluorocopyProtocolListIsNull() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0a6f5034-1131-484f-bec4-60edfe9b658a" testId="b6872eb4-963a-4f7f-afae-ffd5307f5356" testName="ReceivedMessageCanBeExecutedUnderEnterServiceAndMessageTypeIsProtocolWhenEnterService" computerName="D1301004384" duration="00:00:00.0135887" startTime="2023-06-12T14:12:08.3296305+08:00" endTime="2023-06-12T14:12:08.3435933+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a6f5034-1131-484f-bec4-60edfe9b658a">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset Handle uLingo Command data&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenResetHandleULingoCommandData() (0.0s)&#xD;
+Given enter service&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenEnterService() (0.0s)&#xD;
+And received message type is protocol&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageTypeIsProtocol() (0.0s)&#xD;
+And received message can be executed under enter service&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageCanBeExecutedUnderEnterService() (0.0s)&#xD;
+When Execute handle ulingo command function&#xD;
+-&gt; done: HandleuLingoCommandSteps.WhenExecuteHandleUlingoCommandFunction() (0.0s)&#xD;
+Then The size of the protocol collection increase 1&#xD;
+-&gt; done: HandleuLingoCommandSteps.ThenTheSizeOfTheProtocolCollectionIncrease(1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="538534d1-241f-4244-ad50-6a66e5257c45" testId="60e3ec7b-dcc1-4c4a-bd71-fdf51b128298" testName="DifferenceBetweenTwoNumbers_Variant8" computerName="D1301004384" duration="00:00:00.0013741" startTime="2023-06-12T14:13:23.9088651+08:00" endTime="2023-06-12T14:13:23.9108598+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="538534d1-241f-4244-ad50-6a66e5257c45">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is 2147483647 ,the subtrahend is 2147483647&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(2147483647, 2147483647) (0.0s)&#xD;
+Then the result should be 0&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(0) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="055e0700-b64e-4395-94be-a36887a9319a" testId="3ae5afc1-ded2-410a-9116-2b4e5af020d1" testName="ReceivedMessageTypeIsProtocolWhenExitService" computerName="D1301004384" duration="00:00:00.0138439" startTime="2023-06-12T14:12:05.5600230+08:00" endTime="2023-06-12T14:12:05.5739855+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="055e0700-b64e-4395-94be-a36887a9319a">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset Handle uLingo Command data&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenResetHandleULingoCommandData() (0.0s)&#xD;
+Given Exit service&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenExitService() (0.0s)&#xD;
+And received message type is protocol&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageTypeIsProtocol() (0.0s)&#xD;
+When Execute handle ulingo command function&#xD;
+-&gt; done: HandleuLingoCommandSteps.WhenExecuteHandleUlingoCommandFunction() (0.0s)&#xD;
+Then The size of the protocol collection increase 1&#xD;
+-&gt; done: HandleuLingoCommandSteps.ThenTheSizeOfTheProtocolCollectionIncrease(1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="1660b68f-85e3-4cf0-8e63-0a91ae3fd4c3" testId="45c1fd30-a4f1-4bc9-ae88-d9707876d553" testName="ReceivedMessagesParameterIsNull" computerName="D1301004384" duration="00:00:00.0108887" startTime="2023-06-12T14:12:21.0695121+08:00" endTime="2023-06-12T14:12:21.0804830+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1660b68f-85e3-4cf0-8e63-0a91ae3fd4c3">
+      <Output>
+        <StdOut>TestContext Messages:
+Given received message's parameter is null&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenReceivedMessageSParameterIsNull() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="53934cd9-537b-415e-9cb2-c7b59ae10f6c" testId="d45b66bc-e3fe-4bd9-b3f0-d21addbb1503" testName="DifferenceBetweenTwoNumbers_Variant0" computerName="D1301004384" duration="00:00:00.0066840" startTime="2023-06-12T14:13:13.1469482+08:00" endTime="2023-06-12T14:13:13.1549273+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53934cd9-537b-415e-9cb2-c7b59ae10f6c">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is 70 ,the subtrahend is 50&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(70, 50) (0.0s)&#xD;
+Then the result should be 20&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(20) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e6062bcb-44a0-4476-ba20-6de6b6651159" testId="294032e0-2b52-429a-befe-bfdb4a3b5f3e" testName="ReceivedMessageIsNull" computerName="D1301004384" duration="00:00:00.0442904" startTime="2023-06-12T14:12:19.6955260+08:00" endTime="2023-06-12T14:12:19.7404059+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6062bcb-44a0-4476-ba20-6de6b6651159">
+      <Output>
+        <StdOut>TestContext Messages:
+Given received message is null&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenReceivedMessageIsNull() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="535739e5-01de-4bec-8781-63af0b16c94d" testId="c99bf4ed-644b-40e5-bdb0-829da94c2022" testName="AddTwoNumbersWillThrowOverflowException_Variant0" computerName="D1301004384" duration="00:00:00.0033533" startTime="2023-06-12T14:13:07.5841315+08:00" endTime="2023-06-12T14:13:07.5871225+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="535739e5-01de-4bec-8781-63af0b16c94d">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is 2147483647 ,the second number is 2147483647&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(2147483647, 2147483647) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="43813e3e-9880-453e-ab21-7a365f9cae8f" testId="bd72898e-1811-49a6-a150-4e5bc5184f19" testName="AddTwoNumbers_Variant3" computerName="D1301004384" duration="00:00:00.0016273" startTime="2023-06-12T14:13:01.9004879+08:00" endTime="2023-06-12T14:13:01.9024822+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43813e3e-9880-453e-ab21-7a365f9cae8f">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is -1 ,the second number is -4&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(-1, -4) (0.0s)&#xD;
+Then the result should be -5&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(-5) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b9a6572-6880-46e8-a4a0-5b1661634a83" testId="92acaf30-0c98-4c3f-91f6-e7680bc2f03b" testName="FluorocopyProtocolListDontContainRequestProtocol" computerName="D1301004384" duration="00:00:00.0116471" startTime="2023-06-12T14:12:23.7808890+08:00" endTime="2023-06-12T14:12:23.7928571+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b9a6572-6880-46e8-a4a0-5b1661634a83">
+      <Output>
+        <StdOut>TestContext Messages:
+Given request protocol is not exist fluorocopy protocol list&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.GivenRequestProtocolIsNotExistFluorocopyProtocolList() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a59f3a32-50fe-4dea-afd6-2bbb5d8cf03c" testId="c0352abf-42a3-4370-9763-fd4307d25a28" testName="TestInt_9" computerName="D1301004384" duration="00:00:00.1724929" startTime="2023-06-12T14:13:39.9962934+08:00" endTime="2023-06-12T14:13:40.1698285+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a59f3a32-50fe-4dea-afd6-2bbb5d8cf03c">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When first int number 9,the second int number 1&#xD;
+-&gt; done: CalculatorSteps.WhenFirstIntNumberTheSecondIntNumber(9, 1) (0.0s)&#xD;
+Then the result will be is 9&#xD;
+-&gt; No matching step definition found for the step. Use the following code to create one:&#xD;
+        [Then(@"the result will be is (.*)")]&#xD;
+        public void ThenTheResultWillBeIs(int p0)&#xD;
+        {&#xD;
+            _scenarioContext.Pending();&#xD;
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. No matching step definition found for one or more steps.&#xD;
+using System;&#xD;
+using TechTalk.SpecFlow;&#xD;
+&#xD;
+namespace MyNamespace&#xD;
+{&#xD;
+    [Binding]&#xD;
+    public class StepDefinitions&#xD;
+    {&#xD;
+        private readonly ScenarioContext _scenarioContext;&#xD;
+&#xD;
+        public StepDefinitions(ScenarioContext scenarioContext)&#xD;
+        {&#xD;
+            _scenarioContext = scenarioContext;&#xD;
+        }&#xD;
+        [Then(@"the result will be is (.*)")]&#xD;
+        public void ThenTheResultWillBeIs(int p0)&#xD;
+        {&#xD;
+            _scenarioContext.Pending();&#xD;
+        }&#xD;
+    }&#xD;
+}&#xD;
+</Message>
+          <StackTrace>   在 SpecFlowDemo.Features.CalculatorFeature.ScenarioCleanup()&#xD;
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt(String a, String b, String result, String[] exampleTags) 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 107&#xD;
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt_9() 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 104&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="21f7efec-fd76-4acb-94e9-1fd1f14b1c9d" testId="56606ffc-3caf-4a51-adb0-9f4a072abdb8" testName="DifferenceBetweenTwoNumbers_Variant2" computerName="D1301004384" duration="00:00:00.0013027" startTime="2023-06-12T14:13:15.9430940+08:00" endTime="2023-06-12T14:13:15.9440916+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21f7efec-fd76-4acb-94e9-1fd1f14b1c9d">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is -1 ,the subtrahend is 0&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(-1, 0) (0.0s)&#xD;
+Then the result should be -1&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(-1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="bcd419de-48d7-4b40-97ed-5e29974e78aa" testId="33a541fc-48b5-4a69-a12b-12e766aaff1b" testName="SquareDifference_1" computerName="D1301004384" duration="00:00:00.0018083" startTime="2023-06-12T14:13:32.3276781+08:00" endTime="2023-06-12T14:13:32.3306703+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcd419de-48d7-4b40-97ed-5e29974e78aa">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the square difference of first number -1 ,the second number 3&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheSquareDifferenceOfFirstNumberTheSecondNumber(-1, 3) (0.0s)&#xD;
+Then the result should be -8&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(-8) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="33bb5901-2c68-4283-9efb-ca9a8482940e" testId="7e012551-c27b-4424-a4f1-4cafac76ac0e" testName="TheRequestIsValidButNavigationButtonIsNotEnable_Disable" computerName="D1301004384" duration="00:00:00.0049837" startTime="2023-06-12T14:12:30.7531772+08:00" endTime="2023-06-12T14:12:30.7582008+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33bb5901-2c68-4283-9efb-ca9a8482940e">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation button is not enable,and value is "disable"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationButtonIsNotEnableAndValueIs("disable") (0.0s)&#xD;
+When Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then Notify uLingo  execute result is 2&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoExecuteResultIs(2) (0.0s)&#xD;
+And the function return false&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnFalse() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="23d22f13-1f54-4f02-b288-740465ed6fd2" testId="f4cd1512-6780-46d5-a98c-8e24aabaeeef" testName="AddTwoNumbers_Variant6" computerName="D1301004384" duration="00:00:00.0014880" startTime="2023-06-12T14:13:06.1245187+08:00" endTime="2023-06-12T14:13:06.1264884+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23d22f13-1f54-4f02-b288-740465ed6fd2">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is 2147483647 ,the second number is 0&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(2147483647, 0) (0.0s)&#xD;
+Then the result should be 2147483647&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(2147483647) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3cb8928-5aa2-4ab0-9c31-b6fa53e9beee" testId="fd33fecb-1550-44c7-b705-472d566050c0" testName="RequestProtocolIsSameToTheCurrentFluorocopyProtocol" computerName="D1301004384" duration="00:00:00.0072665" startTime="2023-06-12T14:12:26.5667031+08:00" endTime="2023-06-12T14:12:26.5736559+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3cb8928-5aa2-4ab0-9c31-b6fa53e9beee">
+      <Output>
+        <StdOut>TestContext Messages:
+Given The current fluorocopy protocol is the request protocol&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.GivenTheCurrentFluorocopyProtocolIsTheRequestProtocol() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo request state is same to system current state&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoRequestStateIsSameToSystemCurrentState() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3eded1f-4129-40b5-ad8b-5729fdbe0668" testId="085166c9-112d-44cf-9361-e3856bd36cdf" testName="CalculateSquareDifferenceWillThrowOverflowException_2147483648" computerName="D1301004384" duration="00:00:00.0020697" startTime="2023-06-12T14:13:34.8425134+08:00" endTime="2023-06-12T14:13:34.8445345+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3eded1f-4129-40b5-ad8b-5729fdbe0668">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the square difference of first number -2147483648 ,the second number 0&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheSquareDifferenceOfFirstNumberTheSecondNumber(-2147483648, 0) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="fdfbec90-4117-4b71-94bf-63f5ad94d25e" testId="643bfd2d-f55b-4fd8-970e-7c6be7a9302a" testName="DifferenceBetweenTwoNumbers_Variant5" computerName="D1301004384" duration="00:00:00.0014385" startTime="2023-06-12T14:13:20.1049777+08:00" endTime="2023-06-12T14:13:20.1069445+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdfbec90-4117-4b71-94bf-63f5ad94d25e">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is -10 ,the subtrahend is 10&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(-10, 10) (0.0s)&#xD;
+Then the result should be -20&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(-20) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="13a3fc9b-d011-4551-81fa-e315e9ba9bd5" testId="149c60cb-0c9e-4e82-ae7c-f76772d3f011" testName="TheRequestParameterEmpty" computerName="D1301004384" duration="00:00:00.0044349" startTime="2023-06-12T14:12:43.2671137+08:00" endTime="2023-06-12T14:12:43.2711026+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13a3fc9b-d011-4551-81fa-e315e9ba9bd5">
+      <Output>
+        <StdOut>TestContext Messages:
+When request parameter is null&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenRequestParameterIsNull() (0.0s)&#xD;
+Then the function return false&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnFalse() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ee8c7c6-ffcf-4da6-bf2c-dce3d845c6e9" testId="229bc303-51c6-43d8-83ea-bb1966262003" testName="SystemCanExecuteTheRequest" computerName="D1301004384" duration="00:00:00.0048448" startTime="2023-06-12T14:12:54.4321732+08:00" endTime="2023-06-12T14:12:54.4381571+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ee8c7c6-ffcf-4da6-bf2c-dce3d845c6e9">
+      <Output>
+        <StdOut>TestContext Messages:
+Given set system state is staticfy to execute&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenSetSystemStateIsStaticfyToExecute() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can execute,return true&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanExecuteReturnTrue() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="1d3717c8-4213-4cad-af46-fb5c9c352687" testId="8f503143-5d67-4f84-971f-7596b5179da2" testName="AddTwoNumbersWillThrowOverflowException_Variant2" computerName="D1301004384" duration="00:00:00.0014831" startTime="2023-06-12T14:13:10.3486090+08:00" endTime="2023-06-12T14:13:10.3496326+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d3717c8-4213-4cad-af46-fb5c9c352687">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is 2147483647 ,the second number is 2&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(2147483647, 2) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e101912-44b3-4372-96bb-6f1f2dc0fc8e" testId="ea686c7b-0086-437c-9ae8-5c4352d9dc09" testName="RequestBeExecutedWhenScIsOnlineAndSystemIsXRayOff" computerName="D1301004384" duration="00:00:00.0058263" startTime="2023-06-12T14:12:18.2826432+08:00" endTime="2023-06-12T14:12:18.2886256+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e101912-44b3-4372-96bb-6f1f2dc0fc8e">
+      <Output>
+        <StdOut>TestContext Messages:
+Given SCU is online&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.GivenSCUIsOnline() (0.0s)&#xD;
+And system is XRay off&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.GivenSystemIsXRayOff() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: CanExecuteForUnlingoRequestExamLockSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can execute,return true&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenCanExecuteReturnTrue() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0064f3ed-f0ce-44af-8685-81749df008a4" testId="34be7a29-cf37-4145-b84f-ed9602a505ab" testName="SquareDifference_0" computerName="D1301004384" duration="00:00:00.0016041" startTime="2023-06-12T14:13:31.1087200+08:00" endTime="2023-06-12T14:13:31.1107145+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0064f3ed-f0ce-44af-8685-81749df008a4">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the square difference of first number 0 ,the second number 0&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheSquareDifferenceOfFirstNumberTheSecondNumber(0, 0) (0.0s)&#xD;
+Then the result should be 0&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(0) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c837563-f45c-49c9-b2cb-c83180f1987c" testId="0e6bfb82-7b07-4f4f-a033-ce697da68482" testName="RequestCantBeExecutedAndNotifyUlingoWhenScIsOffline" computerName="D1301004384" duration="00:00:00.0056226" startTime="2023-06-12T14:12:15.4842491+08:00" endTime="2023-06-12T14:12:15.4902322+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c837563-f45c-49c9-b2cb-c83180f1987c">
+      <Output>
+        <StdOut>TestContext Messages:
+Given SCU is offline&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.GivenSCUIsOffline() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: CanExecuteForUnlingoRequestExamLockSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="43abdc6e-9e35-4cff-b9ff-8c28f13bcdb5" testId="14170f56-0cce-4d22-918d-7c47c033d2d3" testName="TestInt_4" computerName="D1301004384" duration="00:00:00.0511009" startTime="2023-06-12T14:13:41.4205518+08:00" endTime="2023-06-12T14:13:41.4724125+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43abdc6e-9e35-4cff-b9ff-8c28f13bcdb5">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When first int number 4,the second int number&#xD;
+-&gt; error: 输入字符串的格式不正确。 (0.0s)&#xD;
+Then the result will be is 6&#xD;
+-&gt; No matching step definition found for the step. Use the following code to create one:&#xD;
+        [Then(@"the result will be is (.*)")]&#xD;
+        public void ThenTheResultWillBeIs(int p0)&#xD;
+        {&#xD;
+            _scenarioContext.Pending();&#xD;
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Test method SpecFlowDemo.Features.CalculatorFeature.TestInt_4 threw exception: &#xD;
+System.FormatException: 输入字符串的格式不正确。</Message>
+          <StackTrace>    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)&#xD;
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)&#xD;
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)&#xD;
+   在 TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.ConvertSimple(Type typeToConvertTo, Object value, CultureInfo cultureInfo)&#xD;
+   在 System.Linq.Enumerable.&lt;SelectIterator&gt;d__5`2.MoveNext()&#xD;
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)&#xD;
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)&#xD;
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)&#xD;
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()&#xD;
+   在 SpecFlowDemo.Features.CalculatorFeature.ScenarioCleanup()&#xD;
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt(String a, String b, String result, String[] exampleTags) 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 107&#xD;
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt_4() 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 104&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0969419-f362-4330-8ffd-fa34af584416" testId="27d208ec-e295-42de-bbf3-c35a6815dadb" testName="ReceivedMessageTypeIsNotProtocolWhenExitService" computerName="D1301004384" duration="00:00:00.0258125" startTime="2023-06-12T14:12:04.2154039+08:00" endTime="2023-06-12T14:12:04.2423330+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0969419-f362-4330-8ffd-fa34af584416">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset Handle uLingo Command data&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenResetHandleULingoCommandData() (0.0s)&#xD;
+Given Exit service&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenExitService() (0.0s)&#xD;
+And received message type is not protocol&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageTypeIsNotProtocol() (0.0s)&#xD;
+When Execute handle ulingo command function&#xD;
+-&gt; done: HandleuLingoCommandSteps.WhenExecuteHandleUlingoCommandFunction() (0.0s)&#xD;
+Then The size of the transmit collection increase 1&#xD;
+-&gt; done: HandleuLingoCommandSteps.ThenTheSizeOfTheTransmitCollectionIncrease(1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef3c070e-ed74-41fb-a08e-4defce68595d" testId="263c216f-aa54-4c11-bf28-5c8f80ef26f5" testName="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant0" computerName="D1301004384" duration="00:00:00.0031331" startTime="2023-06-12T14:13:25.1483122+08:00" endTime="2023-06-12T14:13:25.1513046+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef3c070e-ed74-41fb-a08e-4defce68595d">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is -2 ,the subtrahend is 2147483647&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(-2, 2147483647) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a8fbe25f-2112-460c-bf03-ffe041ae8f04" testId="a7bd7ea3-3252-4b57-838d-663863a6cde7" testName="AddTwoNumbers_Variant0" computerName="D1301004384" duration="00:00:00.2691344" startTime="2023-06-12T14:12:56.3457564+08:00" endTime="2023-06-12T14:12:57.1995706+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8fbe25f-2112-460c-bf03-ffe041ae8f04">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.1s)&#xD;
+When the two numbers are added,the first number is 70 ,the second number is 50&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(70, 50) (0.0s)&#xD;
+Then the result should be 120&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(120) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8f796c3-790a-4077-8a5f-bd7614f8708e" testId="a3af878f-8786-4e56-865d-c9d1d1888237" testName="SquareDifference_4" computerName="D1301004384" duration="00:00:00.0018376" startTime="2023-06-12T14:13:33.6327341+08:00" endTime="2023-06-12T14:13:33.6357262+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8f796c3-790a-4077-8a5f-bd7614f8708e">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the square difference of first number 4 ,the second number -2&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheSquareDifferenceOfFirstNumberTheSecondNumber(4, -2) (0.0s)&#xD;
+Then the result should be 12&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(12) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c53dea9b-4c93-4769-a2a6-8a2bff25c6d3" testId="bea5fdb2-04e9-4f4c-ab22-e7747722b74e" testName="AddTwoNumbers_Variant2" computerName="D1301004384" duration="00:00:00.0025194" startTime="2023-06-12T14:13:00.4780547+08:00" endTime="2023-06-12T14:13:00.4810468+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c53dea9b-4c93-4769-a2a6-8a2bff25c6d3">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is -1 ,the second number is 3&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(-1, 3) (0.0s)&#xD;
+Then the result should be 2&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(2) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="bdc02a14-9cff-4b63-846e-d774ffb7238a" testId="3a088f8f-6eb0-47c2-b4f1-09deb394c901" testName="RequestCantBeExecutedWhenReceivedMessageIsNull" computerName="D1301004384" duration="00:00:00.0388023" startTime="2023-06-12T14:12:11.2366960+08:00" endTime="2023-06-12T14:12:11.2755908+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdc02a14-9cff-4b63-846e-d774ffb7238a">
+      <Output>
+        <StdOut>TestContext Messages:
+Given received message is null&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.GivenReceivedMessageIsNull() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: CanExecuteForUnlingoRequestExamLockSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestSteps.ThenCanTExecuteReturnFalse() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="5889052d-a776-425c-8576-47cbcf3db400" testId="cf0e2084-477f-4144-adff-ecafc5cbb207" testName="ReceivedMessageIsUndefined" computerName="D1301004384" duration="00:00:00.2183854" startTime="2023-06-12T14:12:02.8772500+08:00" endTime="2023-06-12T14:12:03.0966636+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5889052d-a776-425c-8576-47cbcf3db400">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset Handle uLingo Command data&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenResetHandleULingoCommandData() (0.0s)&#xD;
+Given received message type is undefined string&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageTypeIsUndefinedString() (0.0s)&#xD;
+When Execute handle ulingo command function&#xD;
+-&gt; done: HandleuLingoCommandSteps.WhenExecuteHandleUlingoCommandFunction() (0.2s)&#xD;
+Then The size of the protocol collection and transmit Collection has not changed&#xD;
+-&gt; done: HandleuLingoCommandSteps.ThenTheSizeOfTheProtocolCollectionAndTransmitCollectionHasNotChanged() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3038b2b-a0fb-4f4b-bf90-fc7c55aec55a" testId="3fa8e024-ac2a-4be2-bafa-99db57c5e9bc" testName="TheRequestIsValidAndNavigationButtonIsEnable_Variant0" computerName="D1301004384" duration="00:00:00.0108245" startTime="2023-06-12T14:12:32.1616477+08:00" endTime="2023-06-12T14:12:32.1726180+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3038b2b-a0fb-4f4b-bf90-fc7c55aec55a">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation button is enable&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationButtonIsEnable() (0.0s)&#xD;
+And current navigation's transparency value  is vaild&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSTransparencyValueIsVaild() (0.0s)&#xD;
+And current navigation's check state  is 1&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenCurrentNavigationSCheckStateIs(1) (0.0s)&#xD;
+When received request can be parsed,value is 1&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenReceivedRequestCanBeParsedValueIs(1) (0.0s)&#xD;
+And Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then the function return is "false"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnIs("false") (0.0s)&#xD;
+And Notify uLingo  execute result is 1&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoExecuteResultIs(1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b52b6445-9163-4f1f-9bc4-4b219075f8d2" testId="d3c64d5f-009a-4c74-bb25-c4e0f3436ab0" testName="ReceivedMessageCanBeExecutedUnderEnterServiceMessageTypeIsNotProtocolWhenEnterService" computerName="D1301004384" duration="00:00:00.0191615" startTime="2023-06-12T14:12:09.7842158+08:00" endTime="2023-06-12T14:12:09.8041642+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b52b6445-9163-4f1f-9bc4-4b219075f8d2">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset Handle uLingo Command data&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenResetHandleULingoCommandData() (0.0s)&#xD;
+Given enter service&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenEnterService() (0.0s)&#xD;
+And received message type is not protocol&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageTypeIsNotProtocol() (0.0s)&#xD;
+And received message can be executed under enter service&#xD;
+-&gt; done: HandleuLingoCommandSteps.GivenReceivedMessageCanBeExecutedUnderEnterService() (0.0s)&#xD;
+When Execute handle ulingo command function&#xD;
+-&gt; done: HandleuLingoCommandSteps.WhenExecuteHandleUlingoCommandFunction() (0.0s)&#xD;
+Then The size of the transmit collection increase 1&#xD;
+-&gt; done: HandleuLingoCommandSteps.ThenTheSizeOfTheTransmitCollectionIncrease(1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ceeeb2dd-729c-45c5-8960-0770d3719b85" testId="1d627513-fc23-4270-9f43-3ace0d27bbd7" testName="RoadmapButtonIsDisable" computerName="D1301004384" duration="00:00:00.0105711" startTime="2023-06-12T14:12:51.6045428+08:00" endTime="2023-06-12T14:12:51.6155118+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ceeeb2dd-729c-45c5-8960-0770d3719b85">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Fluorocopy protocol list is disable&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenFluorocopyProtocolListIsDisable() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="22f36d07-edae-441b-b764-f1d1093c17a3" testId="e7646743-281e-44db-aafb-18f4626b7bbb" testName="AddTwoNumbers_Variant1" computerName="D1301004384" duration="00:00:00.0017099" startTime="2023-06-12T14:12:58.7496139+08:00" endTime="2023-06-12T14:12:58.7516084+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22f36d07-edae-441b-b764-f1d1093c17a3">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is 0 ,the second number is 0&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(0, 0) (0.0s)&#xD;
+Then the result should be 0&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(0) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="72463708-372e-4a4f-8fbd-96de2c7797f1" testId="f3a1b4d3-d35c-4ff5-a6c1-2e55b957db29" testName="TestString_9" computerName="D1301004384" duration="00:00:00.0033508" startTime="2023-06-12T14:13:37.2728343+08:00" endTime="2023-06-12T14:13:37.2768228+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72463708-372e-4a4f-8fbd-96de2c7797f1">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When first number ""9"" ,the second number ""2""&#xD;
+-&gt; done: CalculatorSteps.WhenFirstNumberTheSecondNumber(""9"", ""2"") (0.0s)&#xD;
+Then the result will be is ""9""&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillBeIs(9) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="889679b5-6ac1-49a7-a613-6ca256402d10" testId="6244518d-76b8-4407-8c4c-39e42e0e8819" testName="ReceivedMessageIsNull" computerName="D1301004384" duration="00:00:00.0130736" startTime="2023-06-12T14:12:46.0765358+08:00" endTime="2023-06-12T14:12:46.0914961+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="889679b5-6ac1-49a7-a613-6ca256402d10">
+      <Output>
+        <StdOut>TestContext Messages:
+Given received message is null&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenReceivedMessageIsNull() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="691e4992-7108-46d6-87fe-e89157ff083f" testId="7b19de96-dd9a-4ddc-a680-c715088f2127" testName="DifferenceBetweenTwoNumbers_Variant3" computerName="D1301004384" duration="00:00:00.0015463" startTime="2023-06-12T14:13:17.3406370+08:00" endTime="2023-06-12T14:13:17.3416343+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="691e4992-7108-46d6-87fe-e89157ff083f">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When Calculate the difference,the minuend is 10 ,the subtrahend is -10&#xD;
+-&gt; done: CalculatorSteps.WhenCalculateTheDifferenceTheMinuendIsTheSubtrahendIs(10, -10) (0.0s)&#xD;
+Then the result should be 20&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(20) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="7d64eef5-df4c-460c-8846-4ba3c9a93897" testId="ff1d4e7a-e782-48ee-942c-5c8a3ca25bb4" testName="AddTwoNumbersWillThrowOverflowException_Variant3" computerName="D1301004384" duration="00:00:00.0014789" startTime="2023-06-12T14:13:11.7386458+08:00" endTime="2023-06-12T14:13:11.7406423+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d64eef5-df4c-460c-8846-4ba3c9a93897">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is -2147483648 ,the second number is -20&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(-2147483648, -20) (0.0s)&#xD;
+Then the result will throw OverflowException&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultWillThrowOverflowException() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff04d54f-9458-49d9-a990-87a0b9d27e90" testId="2f069664-8e35-4659-89e3-1303a1060a0b" testName="FluorocopyProtocolListDontContainRequestProtocol" computerName="D1301004384" duration="00:00:00.0057980" startTime="2023-06-12T14:12:50.2143624+08:00" endTime="2023-06-12T14:12:50.2213129+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff04d54f-9458-49d9-a990-87a0b9d27e90">
+      <Output>
+        <StdOut>TestContext Messages:
+Given request protocol is not exist fluorocopy protocol list&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.GivenRequestProtocolIsNotExistFluorocopyProtocolList() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="747ef3e4-786b-45a2-8b87-f1a055837f2b" testId="b15d198c-d7a1-4c29-8775-e53275c536c1" testName="AddTwoNumbers_Variant5" computerName="D1301004384" duration="00:00:00.0015199" startTime="2023-06-12T14:13:04.6407656+08:00" endTime="2023-06-12T14:13:04.6427614+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="747ef3e4-786b-45a2-8b87-f1a055837f2b">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is -2147483648 ,the second number is 0&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(-2147483648, 0) (0.0s)&#xD;
+Then the result should be -2147483648&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(-2147483648) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0974c935-2c29-48e0-bce7-82b5e5fd6e46" testId="73f01a06-bdb9-4a1d-9599-cba3c1f7e77b" testName="TheRequestIsValidButNavigationsTransparencyValueIsInvalid_Null" computerName="D1301004384" duration="00:00:00.0080138" startTime="2023-06-12T14:12:40.4968394+08:00" endTime="2023-06-12T14:12:40.5047792+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0974c935-2c29-48e0-bce7-82b5e5fd6e46">
+      <Output>
+        <StdOut>TestContext Messages:
+Given navigation's transparency value  is  "null"&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.GivenNavigationSTransparencyValueIs("null") (0.0s)&#xD;
+When Determine whether the request can be executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.WhenDetermineWhetherTheRequestCanBeExecuted() (0.0s)&#xD;
+Then notify uLingo the request failed executed&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoTheRequestFailedExecuted() (0.0s)&#xD;
+And the function return false&#xD;
+-&gt; done: RequestOfNavigationForUlingoCanBeExecutedSteps.ThenTheFunctionReturnFalse() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d46e5755-44e6-4ba9-bfe3-77eb5dcd5dd7" testId="e0fe3254-8a25-40b2-8243-b08c981f3975" testName="AddTwoNumbers_Variant4" computerName="D1301004384" duration="00:00:00.0022886" startTime="2023-06-12T14:13:03.2740185+08:00" endTime="2023-06-12T14:13:03.2760128+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d46e5755-44e6-4ba9-bfe3-77eb5dcd5dd7">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Calculator is created&#xD;
+-&gt; done: CalculatorSteps.GivenCalculatorIsCreated() (0.0s)&#xD;
+When the two numbers are added,the first number is -2147483648 ,the second number is 2147483647&#xD;
+-&gt; done: CalculatorSteps.WhenTheTwoNumbersAreAddedTheFirstNumberIsTheSecondNumberIs(-2147483648, 2147483647) (0.0s)&#xD;
+Then the result should be -1&#xD;
+-&gt; done: CalculatorSteps.ThenTheResultShouldBe(-1) (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="65a53080-8824-4207-b166-b91428ca092c" testId="1998b1d5-dbd2-4cd9-9434-a1d6f4314b5e" testName="FluorocopyProtocolListIsDisable" computerName="D1301004384" duration="00:00:00.0057586" startTime="2023-06-12T14:12:25.2172570+08:00" endTime="2023-06-12T14:12:25.2232412+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65a53080-8824-4207-b166-b91428ca092c">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Fluorocopy protocol list is disable&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.GivenFluorocopyProtocolListIsDisable() (0.0s)&#xD;
+When Judge whether it can execute&#xD;
+-&gt; done: JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelSteps.WhenJudgeWhetherItCanExecute() (0.0s)&#xD;
+Then Can't execute,return false&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenCanTExecuteReturnFalse() (0.0s)&#xD;
+And Notify uLingo unable execute the corresponding index request&#xD;
+-&gt; done: CanExecuteForuLingoRequestProtocolSteps.ThenNotifyULingoUnableExecuteTheCorrespondingIndexRequest() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="7fe5d1d1-cb65-4095-8072-fdb12a8a179a" testId="918f1bac-cf49-41d4-9cba-3b0fd1f2692b" testName="ThisRequestWillBeIgnoredWhenTheDataOfRequestExamLockIsNull" computerName="D1301004384" duration="00:00:00.8048387" startTime="2023-06-12T14:11:52.2794691+08:00" endTime="2023-06-12T14:11:54.0287906+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fe5d1d1-cb65-4095-8072-fdb12a8a179a">
+      <Output>
+        <StdOut>TestContext Messages:
+Given Reset data&#xD;
+-&gt; done: ExamLockSteps.GivenResetData() (0.6s)&#xD;
+Given the data of request exam lock is null&#xD;
+-&gt; done: ExamLockSteps.GivenTheDataOfRequestExamLockIsNull() (0.0s)&#xD;
+When Request to set exam lock&#xD;
+-&gt; done: ExamLockSteps.WhenRequestToSetExamLock() (0.0s)&#xD;
+Then This request will be ignored,function return value is error input parameter&#xD;
+-&gt; done: ExamLockSteps.ThenThisRequestWillBeIgnoredFunctionReturnValueIsErrorInputParameter() (0.0s)</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="D1301004384" uri="datacollector://microsoft/VideoRecorder/1.0" collectorDisplayName="Screen and Voice Recorder">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="D1301004384\RecordedMedia.trmx"></A>
+            </UriAttachment>
+            <UriAttachment>
+              <A href="D1301004384\ScreenCapture.wmv">Screen capture video</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="RequestBeExecutedWhenScIsOnlineAndSystemIsXRayOff" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="ea686c7b-0086-437c-9ae8-5c4352d9dc09">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="6e101912-44b3-4372-96bb-6f1f2dc0fc8e" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestExamLockFeature" name="RequestBeExecutedWhenScIsOnlineAndSystemIsXRayOff" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers_Variant1" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="e7646743-281e-44db-aafb-18f4626b7bbb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="22f36d07-edae-441b-b764-f1d1093c17a3" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbers_Variant1" />
+    </UnitTest>
+    <UnitTest name="RequestCantBeExecutedAndNotifyUlingoWhenScIsOffline" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="0e6bfb82-7b07-4f4f-a033-ce697da68482">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="5c837563-f45c-49c9-b2cb-c83180f1987c" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestExamLockFeature" name="RequestCantBeExecutedAndNotifyUlingoWhenScIsOffline" />
+    </UnitTest>
+    <UnitTest name="FluorocopyProtocolListIsDisable" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="1998b1d5-dbd2-4cd9-9434-a1d6f4314b5e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="65a53080-8824-4207-b166-b91428ca092c" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelFeature" name="FluorocopyProtocolListIsDisable" />
+    </UnitTest>
+    <UnitTest name="RequestCantBeExecutedAndNotifyUlingoWhenSystemIsXRayOn" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="8be19e96-5161-4f91-9ca3-19ca9356d929">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="b406c459-7a15-46de-9f5a-e1505aed3fcb" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestExamLockFeature" name="RequestCantBeExecutedAndNotifyUlingoWhenSystemIsXRayOn" />
+    </UnitTest>
+    <UnitTest name="TestString_4" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="7700d00c-e17e-4473-a205-1eab801d4b4d">
+      <Execution id="32e65183-ff79-4b59-8eb6-d78d3899daa7" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="TestString_4" />
+    </UnitTest>
+    <UnitTest name="WillSendMsgToScWhenScuIsOnline" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="a6198997-64f3-4a9c-895b-d77c55d4e270">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExamLock" />
+      </TestCategory>
+      <Execution id="b52eeaca-1cb7-4bbd-a8fb-a5b2ce949b61" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.ExamLockFeature" name="WillSendMsgToScWhenScuIsOnline" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidAndNavigationButtonIsEnable_Variant0" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="3fa8e024-ac2a-4be2-bafa-99db57c5e9bc">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="c3038b2b-a0fb-4f4b-bf90-fc7c55aec55a" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidAndNavigationButtonIsEnable_Variant0" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant2" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="56606ffc-3caf-4a51-adb0-9f4a072abdb8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="21f7efec-fd76-4acb-94e9-1fd1f14b1c9d" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant2" />
+    </UnitTest>
+    <UnitTest name="ThisRequestWillBeIgnoredWhenTheDataOfRequestExamLockIsNotTheAgreedUponValue" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="a789f9f6-2daf-4e14-9283-226cd3a0f50e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExamLock" />
+      </TestCategory>
+      <Execution id="e477a771-ca76-4f63-8713-f1dbdab04227" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.ExamLockFeature" name="ThisRequestWillBeIgnoredWhenTheDataOfRequestExamLockIsNotTheAgreedUponValue" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant0" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="263c216f-aa54-4c11-bf28-5c8f80ef26f5">
+      <Execution id="ef3c070e-ed74-41fb-a08e-4defce68595d" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant0" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant6" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="d0c63537-4c10-4985-a957-28ae7f2b85c2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="ba4b0d3e-b434-42a6-acbb-3923cd43f337" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant6" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessagesParameterIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="f584ccb3-e35b-42da-b919-869767c8cf82">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="c64a4470-b53c-46a6-a5da-905da41005ec" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapFeature" name="ReceivedMessagesParameterIsNull" />
+    </UnitTest>
+    <UnitTest name="ExamFluorocopyProtocolListIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="d64f3df8-fd67-49b8-93f6-daea14d2c704">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="e34965bc-d394-4517-b664-559608ccffd6" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelFeature" name="ExamFluorocopyProtocolListIsNull" />
+    </UnitTest>
+    <UnitTest name="ThisRequestWillBeIgnoredWhenScuIsOfflineAndDontExitValidValue" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="d7ad55b5-c7ef-40d3-8089-12c8d13aa2c0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExamLock" />
+      </TestCategory>
+      <Execution id="cc6c3e68-2d2e-4e0c-adeb-06de4362f057" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.ExamLockFeature" name="ThisRequestWillBeIgnoredWhenScuIsOfflineAndDontExitValidValue" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidButNavigationsTransparencyValueIsInvalid_" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="781d681f-9a8f-4b56-a3a7-3a21e066b2d6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="7555989a-baf9-4108-9eed-bf7a5ce30fc8" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidButNavigationsTransparencyValueIsInvalid_" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbersWillThrowOverflowException_Variant0" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="c99bf4ed-644b-40e5-bdb0-829da94c2022">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="535739e5-01de-4bec-8781-63af0b16c94d" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbersWillThrowOverflowException_Variant0" />
+    </UnitTest>
+    <UnitTest name="SystemCanExecuteTheRequest" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="f94d9745-776d-4df6-9b65-41e75e785c91">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="8df9518e-4803-4746-9a2e-9f2ec68c5fc1" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelFeature" name="SystemCanExecuteTheRequest" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageCantBeExecutedUnderEnterServiceWhenEnterService" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="3b8bbd52-4dc6-45d4-a09c-56169973d2e9">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="aabac2b9-daee-4d85-852b-45dd8e287d45" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.HandleuLingoCommandFeature" name="ReceivedMessageCantBeExecutedUnderEnterServiceWhenEnterService" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidButNavigationsTransparencyValueIsInvalid_Null" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="73f01a06-bdb9-4a1d-9599-cba3c1f7e77b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="0974c935-2c29-48e0-bce7-82b5e5fd6e46" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidButNavigationsTransparencyValueIsInvalid_Null" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbersWillThrowOverflowException_Variant3" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="ff1d4e7a-e782-48ee-942c-5c8a3ca25bb4">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="7d64eef5-df4c-460c-8846-4ba3c9a93897" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbersWillThrowOverflowException_Variant3" />
+    </UnitTest>
+    <UnitTest name="ExamFluorocopyProtocolListIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="08673d69-f049-4381-b792-4e02e00afee6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="0bd825ea-3bb0-4e5e-9d6e-f4f15828dada" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapFeature" name="ExamFluorocopyProtocolListIsNull" />
+    </UnitTest>
+    <UnitTest name="FluorocopyProtocolListDontContainRequestProtocol" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="92acaf30-0c98-4c3f-91f6-e7680bc2f03b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="9b9a6572-6880-46e8-a4a0-5b1661634a83" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelFeature" name="FluorocopyProtocolListDontContainRequestProtocol" />
+    </UnitTest>
+    <UnitTest name="WillNotifyFeReturnLastValidValueWhenScuIsOfflineAndExitValidValue" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="37182e04-e09e-406d-90f4-553846aab42e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExamLock" />
+      </TestCategory>
+      <Execution id="6cd40596-6098-4f40-9d5d-56b34a388904" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.ExamLockFeature" name="WillNotifyFeReturnLastValidValueWhenScuIsOfflineAndExitValidValue" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageTypeIsProtocolWhenExitService" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="3ae5afc1-ded2-410a-9116-2b4e5af020d1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="055e0700-b64e-4395-94be-a36887a9319a" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.HandleuLingoCommandFeature" name="ReceivedMessageTypeIsProtocolWhenExitService" />
+    </UnitTest>
+    <UnitTest name="CalculateSquareDifferenceWillThrowOverflowException_2147483600" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="580d1e7e-abbc-45a4-8da2-430c6f01a48d">
+      <Execution id="19341cec-4623-431d-9fc6-89a872c7a305" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="CalculateSquareDifferenceWillThrowOverflowException_2147483600" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidButNavigationButtonIsNotEnable_NotInit" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="ce743020-c244-48f5-8bd2-a9e4ba3731f6">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="14604c06-7906-461f-b69e-52e8560cdb1d" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidButNavigationButtonIsNotEnable_NotInit" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant1" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="03e51ac7-b945-40e9-abad-371953c3f505">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="2539df79-8f2a-4c7f-a079-e47c04ef4a11" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant1" />
+    </UnitTest>
+    <UnitTest name="RequestCantBeExecutedAndNotifyUlingoWhenScIsOnlineAndSystemIsXRayOff" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="61431d03-eb5b-4d71-8d21-f5d996ef3124">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="659e39cd-802b-4cae-817c-6c4eb2eba88a" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestExamLockFeature" name="RequestCantBeExecutedAndNotifyUlingoWhenScIsOnlineAndSystemIsXRayOff" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant8" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="60e3ec7b-dcc1-4c4a-bd71-fdf51b128298">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="538534d1-241f-4244-ad50-6a66e5257c45" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant8" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbersWillThrowOverflowException_Variant2" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="8f503143-5d67-4f84-971f-7596b5179da2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="1d3717c8-4213-4cad-af46-fb5c9c352687" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbersWillThrowOverflowException_Variant2" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidAndNavigationButtonIsEnable_Variant5" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="f67da5ef-c516-4bdf-b132-2609a43bef65">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="d9479442-5264-4a3c-8615-1ec7ed89e7fe" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidAndNavigationButtonIsEnable_Variant5" />
+    </UnitTest>
+    <UnitTest name="RoadmapButtonIsDisable" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="1d627513-fc23-4270-9f43-3ace0d27bbd7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="ceeeb2dd-729c-45c5-8960-0770d3719b85" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapFeature" name="RoadmapButtonIsDisable" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers_Variant4" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="e0fe3254-8a25-40b2-8243-b08c981f3975">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="d46e5755-44e6-4ba9-bfe3-77eb5dcd5dd7" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbers_Variant4" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="6244518d-76b8-4407-8c4c-39e42e0e8819">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="889679b5-6ac1-49a7-a613-6ca256402d10" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapFeature" name="ReceivedMessageIsNull" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant7" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="4ab6344d-0808-4350-ad1b-0e74e2c6bc00">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="b2ba8ac6-acc6-4cf2-aa91-b10eea300b27" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant7" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant4" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="5cea1600-a67f-4deb-a6b3-f4b1baa3ac85">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="b0ae1398-d878-4769-b6e9-9282e7325737" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant4" />
+    </UnitTest>
+    <UnitTest name="RoadmapStateIsSameToTheCurrentState" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="32951891-4015-4be6-a81f-03f63847aa55">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="43da1b3d-8735-41f4-ad55-a9cb471c521f" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapFeature" name="RoadmapStateIsSameToTheCurrentState" />
+    </UnitTest>
+    <UnitTest name="TestInt_9" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="c0352abf-42a3-4370-9763-fd4307d25a28">
+      <Execution id="a59f3a32-50fe-4dea-afd6-2bbb5d8cf03c" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="TestInt_9" />
+    </UnitTest>
+    <UnitTest name="SquareDifference_1" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="33a541fc-48b5-4a69-a12b-12e766aaff1b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.SquareDifference" />
+      </TestCategory>
+      <Execution id="bcd419de-48d7-4b40-97ed-5e29974e78aa" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="SquareDifference_1" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageTypeIsNotProtocolWhenExitService" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="27d208ec-e295-42de-bbf3-c35a6815dadb">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="b0969419-f362-4330-8ffd-fa34af584416" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.HandleuLingoCommandFeature" name="ReceivedMessageTypeIsNotProtocolWhenExitService" />
+    </UnitTest>
+    <UnitTest name="SquareDifference_70" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="68d2570e-470a-4e61-8ab7-c7aded1ee6a3">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.SquareDifference" />
+      </TestCategory>
+      <Execution id="dc37ad81-1248-4240-80e6-d297f6241693" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="SquareDifference_70" />
+    </UnitTest>
+    <UnitTest name="SquareDifference_4" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="a3af878f-8786-4e56-865d-c9d1d1888237">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.SquareDifference" />
+      </TestCategory>
+      <Execution id="e8f796c3-790a-4077-8a5f-bd7614f8708e" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="SquareDifference_4" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant1" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="ed15e660-7304-461a-a890-db68174f34ca">
+      <Execution id="9ea43a74-8bb0-4e0e-90ab-ad2f67880aff" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant1" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidAndNavigationButtonIsEnable_Variant1" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="7682c491-5d90-49a6-b10b-5512aa60a76b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="5d65f5ec-b63c-4c5b-85b1-f832f60f896b" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidAndNavigationButtonIsEnable_Variant1" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers_Variant0" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="a7bd7ea3-3252-4b57-838d-663863a6cde7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="a8fbe25f-2112-460c-bf03-ffe041ae8f04" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbers_Variant0" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidAndNavigationButtonIsEnable_Variant4" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="d4315729-02eb-4cd1-ad99-37765c9c1434">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="b88bf18d-2de7-4929-92af-140c66a9301f" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidAndNavigationButtonIsEnable_Variant4" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidAndNavigationButtonIsEnable_Variant2" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="1274faa9-4eb9-4326-ade7-c64369f53b3a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="8953810d-df1e-4f7a-87fc-9c603fb00c5c" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidAndNavigationButtonIsEnable_Variant2" />
+    </UnitTest>
+    <UnitTest name="TestString_9" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="f3a1b4d3-d35c-4ff5-a6c1-2e55b957db29">
+      <Execution id="72463708-372e-4a4f-8fbd-96de2c7797f1" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="TestString_9" />
+    </UnitTest>
+    <UnitTest name="TestInt_4" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="14170f56-0cce-4d22-918d-7c47c033d2d3">
+      <Execution id="43abdc6e-9e35-4cff-b9ff-8c28f13bcdb5" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="TestInt_4" />
+    </UnitTest>
+    <UnitTest name="RequestCantBeExecutedWhenReceivedMessageIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="3a088f8f-6eb0-47c2-b4f1-09deb394c901">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="bdc02a14-9cff-4b63-846e-d774ffb7238a" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestExamLockFeature" name="RequestCantBeExecutedWhenReceivedMessageIsNull" />
+    </UnitTest>
+    <UnitTest name="CalculateSquareDifferenceWillThrowOverflowException_2147483648" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="085166c9-112d-44cf-9361-e3856bd36cdf">
+      <Execution id="b3eded1f-4129-40b5-ad8b-5729fdbe0668" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="CalculateSquareDifferenceWillThrowOverflowException_2147483648" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant3" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="7b19de96-dd9a-4ddc-a680-c715088f2127">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="691e4992-7108-46d6-87fe-e89157ff083f" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant3" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidButNavigationButtonIsNotEnable_Disable" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="7e012551-c27b-4424-a4f1-4cafac76ac0e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="33bb5901-2c68-4283-9efb-ca9a8482940e" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidButNavigationButtonIsNotEnable_Disable" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbersWillThrowOverflowException_Variant1" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="402d8def-85e2-47b6-89b5-714963da0243">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="9d13a796-8677-42a6-b9a3-108129c0c821" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbersWillThrowOverflowException_Variant1" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers_Variant5" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="b15d198c-d7a1-4c29-8775-e53275c536c1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="747ef3e4-786b-45a2-8b87-f1a055837f2b" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbers_Variant5" />
+    </UnitTest>
+    <UnitTest name="SquareDifference_0" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="34be7a29-cf37-4145-b84f-ed9602a505ab">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.SquareDifference" />
+      </TestCategory>
+      <Execution id="0064f3ed-f0ce-44af-8685-81749df008a4" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="SquareDifference_0" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant3" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="f5e6cd4c-becd-4d24-9c1d-8ca1c1d9fc8f">
+      <Execution id="224d208e-e43e-4d01-997b-6fa0badc09bc" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant3" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers_Variant2" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="bea5fdb2-04e9-4f4c-ab22-e7747722b74e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="c53dea9b-4c93-4769-a2a6-8a2bff25c6d3" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbers_Variant2" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant2" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="85c1a0ee-5077-416d-bde2-fecf5526c35c">
+      <Execution id="0f8ad066-d6e0-4a8a-864c-248144124c82" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant2" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers_Variant6" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="f4cd1512-6780-46d5-a98c-8e24aabaeeef">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="23d22f13-1f54-4f02-b288-740465ed6fd2" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbers_Variant6" />
+    </UnitTest>
+    <UnitTest name="AddTwoNumbers_Variant3" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="bd72898e-1811-49a6-a150-4e5bc5184f19">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add" />
+      </TestCategory>
+      <Execution id="43813e3e-9880-453e-ab21-7a365f9cae8f" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="AddTwoNumbers_Variant3" />
+    </UnitTest>
+    <UnitTest name="RequestProtocolIsSameToTheCurrentFluorocopyProtocol" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="fd33fecb-1550-44c7-b705-472d566050c0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="a3cb8928-5aa2-4ab0-9c31-b6fa53e9beee" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelFeature" name="RequestProtocolIsSameToTheCurrentFluorocopyProtocol" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant0" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="d45b66bc-e3fe-4bd9-b3f0-d21addbb1503">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="53934cd9-537b-415e-9cb2-c7b59ae10f6c" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant0" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessagesParameterIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="ee210cf1-8833-4cd6-b7d8-b06cdadf7946">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="dc54a934-dea7-48ac-aa3d-c4484e41ca5e" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestExamLockFeature" name="ReceivedMessagesParameterIsNull" />
+    </UnitTest>
+    <UnitTest name="DifferenceBetweenTwoNumbers_Variant5" storage="d:\x-sw\dsa\trunk\uih\bin\net48\specflowdemo_ut.dll" id="643bfd2d-f55b-4fd8-970e-7c6be7a9302a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Calculator.add.OverflowException" />
+        <TestCategoryItem TestCategory="Calculator.sub" />
+      </TestCategory>
+      <Execution id="fdfbec90-4117-4b71-94bf-63f5ad94d25e" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="SpecFlowDemo.Features.CalculatorFeature" name="DifferenceBetweenTwoNumbers_Variant5" />
+    </UnitTest>
+    <UnitTest name="TheRequestParameterEmpty" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="149c60cb-0c9e-4e82-ae7c-f76772d3f011">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="13a3fc9b-d011-4551-81fa-e315e9ba9bd5" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestParameterEmpty" />
+    </UnitTest>
+    <UnitTest name="SystemCanExecuteTheRequest" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="229bc303-51c6-43d8-83ea-bb1966262003">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="8ee8c7c6-ffcf-4da6-bf2c-dce3d845c6e9" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapFeature" name="SystemCanExecuteTheRequest" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageIsUndefined" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="cf0e2084-477f-4144-adff-ecafc5cbb207">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="5889052d-a776-425c-8576-47cbcf3db400" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.HandleuLingoCommandFeature" name="ReceivedMessageIsUndefined" />
+    </UnitTest>
+    <UnitTest name="ThisRequestWillBeIgnoredWhenTheDataOfRequestExamLockIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="918f1bac-cf49-41d4-9cba-3b0fd1f2692b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="ExamLock" />
+      </TestCategory>
+      <Execution id="7fe5d1d1-cb65-4095-8072-fdb12a8a179a" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.ExamLockFeature" name="ThisRequestWillBeIgnoredWhenTheDataOfRequestExamLockIsNull" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageCanBeExecutedUnderEnterServiceAndMessageTypeIsProtocolWhenEnterService" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="b6872eb4-963a-4f7f-afae-ffd5307f5356">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="0a6f5034-1131-484f-bec4-60edfe9b658a" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.HandleuLingoCommandFeature" name="ReceivedMessageCanBeExecutedUnderEnterServiceAndMessageTypeIsProtocolWhenEnterService" />
+    </UnitTest>
+    <UnitTest name="FluorocopyProtocolListDontContainRequestProtocol" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="2f069664-8e35-4659-89e3-1303a1060a0b">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="ff04d54f-9458-49d9-a990-87a0b9d27e90" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectRoadmapFeature" name="FluorocopyProtocolListDontContainRequestProtocol" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageIsNullOrEmpty" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="22c9b819-63d2-4fab-9fd6-d3da8ad60b3f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="9fccea49-9586-49a5-849f-4ddb6e5b6a42" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.HandleuLingoCommandFeature" name="ReceivedMessageIsNullOrEmpty" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessagesParameterIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="45c1fd30-a4f1-4bc9-ae88-d9707876d553">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="1660b68f-85e3-4cf0-8e63-0a91ae3fd4c3" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelFeature" name="ReceivedMessagesParameterIsNull" />
+    </UnitTest>
+    <UnitTest name="TheRequestIsValidAndNavigationButtonIsEnable_Variant3" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="20a3cf85-d401-4562-a367-fd4ed2c82592">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="8edec7f3-7767-4fd6-b2ec-e68fc126561e" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestIsValidAndNavigationButtonIsEnable_Variant3" />
+    </UnitTest>
+    <UnitTest name="TheRequestFunctionParameterIsEmpty" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="44b25c55-01e9-49c6-a8f8-0e043a6387a7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="a85c65d9-714b-4caf-b079-18516f90a58d" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature" name="TheRequestFunctionParameterIsEmpty" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageIsNull" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="294032e0-2b52-429a-befe-bfdb4a3b5f3e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="e6062bcb-44a0-4476-ba20-6de6b6651159" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.JudgeWhetherItCanExecuteForUnlingoRequestSelectFluoroscopyDoseLevelFeature" name="ReceivedMessageIsNull" />
+    </UnitTest>
+    <UnitTest name="ReceivedMessageCanBeExecutedUnderEnterServiceMessageTypeIsNotProtocolWhenEnterService" storage="d:\x-sw\dsa\trunk\uih\bin\net48\exambe_ut.dll" id="d3c64d5f-009a-4c74-bb25-c4e0f3436ab0">
+      <TestCategory>
+        <TestCategoryItem TestCategory="uLingo" />
+      </TestCategory>
+      <Execution id="b52b6445-9163-4f1f-9bc4-4b219075f8d2" />
+      <TestMethod codeBase="D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll" adapterTypeName="executor://mstestadapter/v2" className="ExamBE_UT.Features.HandleuLingoCommandFeature" name="ReceivedMessageCanBeExecutedUnderEnterServiceMessageTypeIsNotProtocolWhenEnterService" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="20a3cf85-d401-4562-a367-fd4ed2c82592" executionId="8edec7f3-7767-4fd6-b2ec-e68fc126561e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0c63537-4c10-4985-a957-28ae7f2b85c2" executionId="ba4b0d3e-b434-42a6-acbb-3923cd43f337" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f584ccb3-e35b-42da-b919-869767c8cf82" executionId="c64a4470-b53c-46a6-a5da-905da41005ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="580d1e7e-abbc-45a4-8da2-430c6f01a48d" executionId="19341cec-4623-431d-9fc6-89a872c7a305" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a789f9f6-2daf-4e14-9283-226cd3a0f50e" executionId="e477a771-ca76-4f63-8713-f1dbdab04227" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1274faa9-4eb9-4326-ade7-c64369f53b3a" executionId="8953810d-df1e-4f7a-87fc-9c603fb00c5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ab6344d-0808-4350-ad1b-0e74e2c6bc00" executionId="b2ba8ac6-acc6-4cf2-aa91-b10eea300b27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d64f3df8-fd67-49b8-93f6-daea14d2c704" executionId="e34965bc-d394-4517-b664-559608ccffd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="402d8def-85e2-47b6-89b5-714963da0243" executionId="9d13a796-8677-42a6-b9a3-108129c0c821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7ad55b5-c7ef-40d3-8089-12c8d13aa2c0" executionId="cc6c3e68-2d2e-4e0c-adeb-06de4362f057" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37182e04-e09e-406d-90f4-553846aab42e" executionId="6cd40596-6098-4f40-9d5d-56b34a388904" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="781d681f-9a8f-4b56-a3a7-3a21e066b2d6" executionId="7555989a-baf9-4108-9eed-bf7a5ce30fc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cea1600-a67f-4deb-a6b3-f4b1baa3ac85" executionId="b0ae1398-d878-4769-b6e9-9282e7325737" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee210cf1-8833-4cd6-b7d8-b06cdadf7946" executionId="dc54a934-dea7-48ac-aa3d-c4484e41ca5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7682c491-5d90-49a6-b10b-5512aa60a76b" executionId="5d65f5ec-b63c-4c5b-85b1-f832f60f896b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32951891-4015-4be6-a81f-03f63847aa55" executionId="43da1b3d-8735-41f4-ad55-a9cb471c521f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61431d03-eb5b-4d71-8d21-f5d996ef3124" executionId="659e39cd-802b-4cae-817c-6c4eb2eba88a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4315729-02eb-4cd1-ad99-37765c9c1434" executionId="b88bf18d-2de7-4929-92af-140c66a9301f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68d2570e-470a-4e61-8ab7-c7aded1ee6a3" executionId="dc37ad81-1248-4240-80e6-d297f6241693" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5e6cd4c-becd-4d24-9c1d-8ca1c1d9fc8f" executionId="224d208e-e43e-4d01-997b-6fa0badc09bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44b25c55-01e9-49c6-a8f8-0e043a6387a7" executionId="a85c65d9-714b-4caf-b079-18516f90a58d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f67da5ef-c516-4bdf-b132-2609a43bef65" executionId="d9479442-5264-4a3c-8615-1ec7ed89e7fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6198997-64f3-4a9c-895b-d77c55d4e270" executionId="b52eeaca-1cb7-4bbd-a8fb-a5b2ce949b61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed15e660-7304-461a-a890-db68174f34ca" executionId="9ea43a74-8bb0-4e0e-90ab-ad2f67880aff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8be19e96-5161-4f91-9ca3-19ca9356d929" executionId="b406c459-7a15-46de-9f5a-e1505aed3fcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22c9b819-63d2-4fab-9fd6-d3da8ad60b3f" executionId="9fccea49-9586-49a5-849f-4ddb6e5b6a42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85c1a0ee-5077-416d-bde2-fecf5526c35c" executionId="0f8ad066-d6e0-4a8a-864c-248144124c82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7700d00c-e17e-4473-a205-1eab801d4b4d" executionId="32e65183-ff79-4b59-8eb6-d78d3899daa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce743020-c244-48f5-8bd2-a9e4ba3731f6" executionId="14604c06-7906-461f-b69e-52e8560cdb1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b8bbd52-4dc6-45d4-a09c-56169973d2e9" executionId="aabac2b9-daee-4d85-852b-45dd8e287d45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f94d9745-776d-4df6-9b65-41e75e785c91" executionId="8df9518e-4803-4746-9a2e-9f2ec68c5fc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03e51ac7-b945-40e9-abad-371953c3f505" executionId="2539df79-8f2a-4c7f-a079-e47c04ef4a11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08673d69-f049-4381-b792-4e02e00afee6" executionId="0bd825ea-3bb0-4e5e-9d6e-f4f15828dada" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6872eb4-963a-4f7f-afae-ffd5307f5356" executionId="0a6f5034-1131-484f-bec4-60edfe9b658a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60e3ec7b-dcc1-4c4a-bd71-fdf51b128298" executionId="538534d1-241f-4244-ad50-6a66e5257c45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ae5afc1-ded2-410a-9116-2b4e5af020d1" executionId="055e0700-b64e-4395-94be-a36887a9319a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45c1fd30-a4f1-4bc9-ae88-d9707876d553" executionId="1660b68f-85e3-4cf0-8e63-0a91ae3fd4c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d45b66bc-e3fe-4bd9-b3f0-d21addbb1503" executionId="53934cd9-537b-415e-9cb2-c7b59ae10f6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="294032e0-2b52-429a-befe-bfdb4a3b5f3e" executionId="e6062bcb-44a0-4476-ba20-6de6b6651159" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c99bf4ed-644b-40e5-bdb0-829da94c2022" executionId="535739e5-01de-4bec-8781-63af0b16c94d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd72898e-1811-49a6-a150-4e5bc5184f19" executionId="43813e3e-9880-453e-ab21-7a365f9cae8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92acaf30-0c98-4c3f-91f6-e7680bc2f03b" executionId="9b9a6572-6880-46e8-a4a0-5b1661634a83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0352abf-42a3-4370-9763-fd4307d25a28" executionId="a59f3a32-50fe-4dea-afd6-2bbb5d8cf03c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56606ffc-3caf-4a51-adb0-9f4a072abdb8" executionId="21f7efec-fd76-4acb-94e9-1fd1f14b1c9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33a541fc-48b5-4a69-a12b-12e766aaff1b" executionId="bcd419de-48d7-4b40-97ed-5e29974e78aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e012551-c27b-4424-a4f1-4cafac76ac0e" executionId="33bb5901-2c68-4283-9efb-ca9a8482940e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4cd1512-6780-46d5-a98c-8e24aabaeeef" executionId="23d22f13-1f54-4f02-b288-740465ed6fd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd33fecb-1550-44c7-b705-472d566050c0" executionId="a3cb8928-5aa2-4ab0-9c31-b6fa53e9beee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="085166c9-112d-44cf-9361-e3856bd36cdf" executionId="b3eded1f-4129-40b5-ad8b-5729fdbe0668" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="643bfd2d-f55b-4fd8-970e-7c6be7a9302a" executionId="fdfbec90-4117-4b71-94bf-63f5ad94d25e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="149c60cb-0c9e-4e82-ae7c-f76772d3f011" executionId="13a3fc9b-d011-4551-81fa-e315e9ba9bd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="229bc303-51c6-43d8-83ea-bb1966262003" executionId="8ee8c7c6-ffcf-4da6-bf2c-dce3d845c6e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f503143-5d67-4f84-971f-7596b5179da2" executionId="1d3717c8-4213-4cad-af46-fb5c9c352687" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea686c7b-0086-437c-9ae8-5c4352d9dc09" executionId="6e101912-44b3-4372-96bb-6f1f2dc0fc8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34be7a29-cf37-4145-b84f-ed9602a505ab" executionId="0064f3ed-f0ce-44af-8685-81749df008a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e6bfb82-7b07-4f4f-a033-ce697da68482" executionId="5c837563-f45c-49c9-b2cb-c83180f1987c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14170f56-0cce-4d22-918d-7c47c033d2d3" executionId="43abdc6e-9e35-4cff-b9ff-8c28f13bcdb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27d208ec-e295-42de-bbf3-c35a6815dadb" executionId="b0969419-f362-4330-8ffd-fa34af584416" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="263c216f-aa54-4c11-bf28-5c8f80ef26f5" executionId="ef3c070e-ed74-41fb-a08e-4defce68595d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7bd7ea3-3252-4b57-838d-663863a6cde7" executionId="a8fbe25f-2112-460c-bf03-ffe041ae8f04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3af878f-8786-4e56-865d-c9d1d1888237" executionId="e8f796c3-790a-4077-8a5f-bd7614f8708e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bea5fdb2-04e9-4f4c-ab22-e7747722b74e" executionId="c53dea9b-4c93-4769-a2a6-8a2bff25c6d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a088f8f-6eb0-47c2-b4f1-09deb394c901" executionId="bdc02a14-9cff-4b63-846e-d774ffb7238a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf0e2084-477f-4144-adff-ecafc5cbb207" executionId="5889052d-a776-425c-8576-47cbcf3db400" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fa8e024-ac2a-4be2-bafa-99db57c5e9bc" executionId="c3038b2b-a0fb-4f4b-bf90-fc7c55aec55a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3c64d5f-009a-4c74-bb25-c4e0f3436ab0" executionId="b52b6445-9163-4f1f-9bc4-4b219075f8d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d627513-fc23-4270-9f43-3ace0d27bbd7" executionId="ceeeb2dd-729c-45c5-8960-0770d3719b85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7646743-281e-44db-aafb-18f4626b7bbb" executionId="22f36d07-edae-441b-b764-f1d1093c17a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3a1b4d3-d35c-4ff5-a6c1-2e55b957db29" executionId="72463708-372e-4a4f-8fbd-96de2c7797f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6244518d-76b8-4407-8c4c-39e42e0e8819" executionId="889679b5-6ac1-49a7-a613-6ca256402d10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b19de96-dd9a-4ddc-a680-c715088f2127" executionId="691e4992-7108-46d6-87fe-e89157ff083f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff1d4e7a-e782-48ee-942c-5c8a3ca25bb4" executionId="7d64eef5-df4c-460c-8846-4ba3c9a93897" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f069664-8e35-4659-89e3-1303a1060a0b" executionId="ff04d54f-9458-49d9-a990-87a0b9d27e90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b15d198c-d7a1-4c29-8775-e53275c536c1" executionId="747ef3e4-786b-45a2-8b87-f1a055837f2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73f01a06-bdb9-4a1d-9599-cba3c1f7e77b" executionId="0974c935-2c29-48e0-bce7-82b5e5fd6e46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0fe3254-8a25-40b2-8243-b08c981f3975" executionId="d46e5755-44e6-4ba9-bfe3-77eb5dcd5dd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1998b1d5-dbd2-4cd9-9434-a1d6f4314b5e" executionId="65a53080-8824-4207-b166-b91428ca092c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="918f1bac-cf49-41d4-9cba-3b0fd1f2692b" executionId="7fe5d1d1-cb65-4095-8072-fdb12a8a179a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="78" executed="78" passed="75" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="D1301004384" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="LAPTOP-T43BJRND\ylloveyl_LAPTOP-T43BJRND_2023-08-27.18_41_07.coverage"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

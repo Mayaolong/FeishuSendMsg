@@ -1,0 +1,604 @@
+﻿<html xmlns:tp="http://schemas.datacontract.org/2004/07/Microsoft.VisualStudio.TestPlatform.Extensions.HtmlLogger.ObjectModel" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <body>
+    <h1>Test run details</h1>
+    <div class="summary">
+      <div class="block"><span>Total tests</span><div class="total-tests">78</div><br></div>
+      <div class="block"><span>Passed  : </span><span class="passedTests">75</span><br><span>Failed  : </span><span class="failedTests">3</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
+      <div class="block"><span>Pass percentage</span><div class="pass-percentage">96 %</div><br></div>
+      <div class="block"><span>Run duration</span><div class="test-run-time">1m 58s</div><br></div><br></div>
+    <h2>Failed Results</h2>
+    <div class="list-row" onclick="ToggleClass('-737632428-failedResult')">D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll</div>
+    <div class="inner-row" Id="-737632428-failedResult" style="display:block;">
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> TheRequestIsValidButNavigationsTransparencyValueIsInvalid_</span><div class="duration"><span>101ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>Test method ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid_ threw exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: value</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    在 Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 ExamBE_UT.Steps.RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoTheRequestFailedExecuted() 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Steps\RequestOfNavigationForUlingoCanBeExecutedSteps.cs:行号 202
+   在 TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.ScenarioCleanup()
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid(String invalidTransparency, String[] exampleTags) 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Features\SelectNavigationForuLingo.feature:行号 41
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid_() 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Features\SelectNavigationForuLingo.feature:行号 37
+</pre></span><br></div>
+      </div>
+    </div>
+    <div class="list-row" onclick="ToggleClass('1654523959-failedResult')">D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll</div>
+    <div class="inner-row" Id="1654523959-failedResult" style="display:block;">
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> TestInt_9</span><div class="duration"><span>172ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.Inconclusive failed. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        private readonly ScenarioContext _scenarioContext;
+
+        public StepDefinitions(ScenarioContext scenarioContext)
+        {
+            _scenarioContext = scenarioContext;
+        }
+        [Then(@"the result will be is (.*)")]
+        public void ThenTheResultWillBeIs(int p0)
+        {
+            _scenarioContext.Pending();
+        }
+    }
+}
+</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   在 SpecFlowDemo.Features.CalculatorFeature.ScenarioCleanup()
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt(String a, String b, String result, String[] exampleTags) 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 107
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt_9() 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 104
+</pre></span><br></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> TestInt_4</span><div class="duration"><span>51ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>Test method SpecFlowDemo.Features.CalculatorFeature.TestInt_4 threw exception: 
+System.FormatException: 输入字符串的格式不正确。</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.ConvertSimple(Type typeToConvertTo, Object value, CultureInfo cultureInfo)
+   在 System.Linq.Enumerable.&lt;SelectIterator&gt;d__5`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   在 SpecFlowDemo.Features.CalculatorFeature.ScenarioCleanup()
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt(String a, String b, String result, String[] exampleTags) 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 107
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt_4() 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 104
+</pre></span><br></div>
+      </div>
+    </div>
+    <h2>All Results</h2>
+    <div class="list-row" onclick="ToggleClass('-737632428')">D:\X-SW\DSA\Trunk\UIH\bin\net48\ExamBE_UT.dll</div>
+    <div class="inner-row" Id="-737632428" style="display:none;">
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ThisRequestWillBeIgnoredWhenTheDataOfRequestExamLockIsNull</span><div class="duration"><span>804ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ThisRequestWillBeIgnoredWhenTheDataOfRequestExamLockIsNotTheAgreedUponValue</span><div class="duration"><span>10ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> WillNotifyFeReturnLastValidValueWhenScuIsOfflineAndExitValidValue</span><div class="duration"><span>899ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ThisRequestWillBeIgnoredWhenScuIsOfflineAndDontExitValidValue</span><div class="duration"><span>16ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> WillSendMsgToScWhenScuIsOnline</span><div class="duration"><span>52ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageIsNullOrEmpty</span><div class="duration"><span>38ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageIsUndefined</span><div class="duration"><span>218ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageTypeIsNotProtocolWhenExitService</span><div class="duration"><span>25ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageTypeIsProtocolWhenExitService</span><div class="duration"><span>13ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageCantBeExecutedUnderEnterServiceWhenEnterService</span><div class="duration"><span>9ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageCanBeExecutedUnderEnterServiceAndMessageTypeIsProtocolWhenEnterService</span><div class="duration"><span>13ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageCanBeExecutedUnderEnterServiceMessageTypeIsNotProtocolWhenEnterService</span><div class="duration"><span>19ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> RequestCantBeExecutedWhenReceivedMessageIsNull</span><div class="duration"><span>38ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessagesParameterIsNull</span><div class="duration"><span>16ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> RequestCantBeExecutedAndNotifyUlingoWhenSystemIsXRayOn</span><div class="duration"><span>7ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> RequestCantBeExecutedAndNotifyUlingoWhenScIsOffline</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> RequestCantBeExecutedAndNotifyUlingoWhenScIsOnlineAndSystemIsXRayOff</span><div class="duration"><span>8ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> RequestBeExecutedWhenScIsOnlineAndSystemIsXRayOff</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageIsNull</span><div class="duration"><span>44ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessagesParameterIsNull</span><div class="duration"><span>10ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ExamFluorocopyProtocolListIsNull</span><div class="duration"><span>4ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> FluorocopyProtocolListDontContainRequestProtocol</span><div class="duration"><span>11ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> FluorocopyProtocolListIsDisable</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> RequestProtocolIsSameToTheCurrentFluorocopyProtocol</span><div class="duration"><span>7ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> SystemCanExecuteTheRequest</span><div class="duration"><span>8ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidButNavigationButtonIsNotEnable_NotInit</span><div class="duration"><span>16ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidButNavigationButtonIsNotEnable_Disable</span><div class="duration"><span>4ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidAndNavigationButtonIsEnable_Variant0</span><div class="duration"><span>10ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidAndNavigationButtonIsEnable_Variant1</span><div class="duration"><span>4ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidAndNavigationButtonIsEnable_Variant2</span><div class="duration"><span>7ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidAndNavigationButtonIsEnable_Variant3</span><div class="duration"><span>4ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidAndNavigationButtonIsEnable_Variant4</span><div class="duration"><span>6ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidAndNavigationButtonIsEnable_Variant5</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestIsValidButNavigationsTransparencyValueIsInvalid_Null</span><div class="duration"><span>8ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> TheRequestIsValidButNavigationsTransparencyValueIsInvalid_</span><div class="duration"><span>101ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>Test method ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid_ threw exception: 
+System.ArgumentNullException: 值不能为 null。
+参数名: value</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    在 Newtonsoft.Json.Utilities.ValidationUtils.ArgumentNotNull(Object value, String parameterName)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 ExamBE_UT.Steps.RequestOfNavigationForUlingoCanBeExecutedSteps.ThenNotifyULingoTheRequestFailedExecuted() 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Steps\RequestOfNavigationForUlingoCanBeExecutedSteps.cs:行号 202
+   在 TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.ScenarioCleanup()
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid(String invalidTransparency, String[] exampleTags) 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Features\SelectNavigationForuLingo.feature:行号 41
+   在 ExamBE_UT.Features.DetermineWhetherTheRequestOfNavigationForUlingoCanBeExecutedFeature.TheRequestIsValidButNavigationsTransparencyValueIsInvalid_() 位置 D:\X-SW\DSA\Trunk\IAS\Feature\ExamBEContainee\ExamBE_UT\Features\SelectNavigationForuLingo.feature:行号 37
+</pre></span><br></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestParameterEmpty</span><div class="duration"><span>4ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TheRequestFunctionParameterIsEmpty</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessageIsNull</span><div class="duration"><span>13ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ReceivedMessagesParameterIsNull</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ExamFluorocopyProtocolListIsNull</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> FluorocopyProtocolListDontContainRequestProtocol</span><div class="duration"><span>5ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> RoadmapButtonIsDisable</span><div class="duration"><span>10ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> RoadmapStateIsSameToTheCurrentState</span><div class="duration"><span>6ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> SystemCanExecuteTheRequest</span><div class="duration"><span>4ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+    </div>
+    <div class="list-row" onclick="ToggleClass('1654523959')">D:\X-SW\DSA\Trunk\UIH\bin\net48\SpecFlowDemo_UT.dll</div>
+    <div class="inner-row" Id="1654523959" style="display:none;">
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbers_Variant0</span><div class="duration"><span>269ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbers_Variant1</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbers_Variant2</span><div class="duration"><span>2ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbers_Variant3</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbers_Variant4</span><div class="duration"><span>2ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbers_Variant5</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbers_Variant6</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbersWillThrowOverflowException_Variant0</span><div class="duration"><span>3ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbersWillThrowOverflowException_Variant1</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbersWillThrowOverflowException_Variant2</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AddTwoNumbersWillThrowOverflowException_Variant3</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant0</span><div class="duration"><span>6ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant1</span><div class="duration"><span>2ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant2</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant3</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant4</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant5</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant6</span><div class="duration"><span>2ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant7</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbers_Variant8</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant0</span><div class="duration"><span>3ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant1</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant2</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> DifferenceBetweenTwoNumbersWillThrowOverflowException_Variant3</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> SquareDifference_70</span><div class="duration"><span>4ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> SquareDifference_0</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> SquareDifference_1</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> SquareDifference_4</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> CalculateSquareDifferenceWillThrowOverflowException_2147483648</span><div class="duration"><span>2ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> CalculateSquareDifferenceWillThrowOverflowException_2147483600</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TestString_9</span><div class="duration"><span>3ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> TestString_4</span><div class="duration"><span>1ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> TestInt_9</span><div class="duration"><span>172ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>Assert.Inconclusive failed. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        private readonly ScenarioContext _scenarioContext;
+
+        public StepDefinitions(ScenarioContext scenarioContext)
+        {
+            _scenarioContext = scenarioContext;
+        }
+        [Then(@"the result will be is (.*)")]
+        public void ThenTheResultWillBeIs(int p0)
+        {
+            _scenarioContext.Pending();
+        }
+    }
+}
+</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   在 SpecFlowDemo.Features.CalculatorFeature.ScenarioCleanup()
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt(String a, String b, String result, String[] exampleTags) 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 107
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt_9() 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 104
+</pre></span><br></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> TestInt_4</span><div class="duration"><span>51ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>Test method SpecFlowDemo.Features.CalculatorFeature.TestInt_4 threw exception: 
+System.FormatException: 输入字符串的格式不正确。</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 TechTalk.SpecFlow.Bindings.StepArgumentTypeConverter.ConvertSimple(Type typeToConvertTo, Object value, CultureInfo cultureInfo)
+   在 System.Linq.Enumerable.&lt;SelectIterator&gt;d__5`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   在 TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   在 SpecFlowDemo.Features.CalculatorFeature.ScenarioCleanup()
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt(String a, String b, String result, String[] exampleTags) 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 107
+   在 SpecFlowDemo.Features.CalculatorFeature.TestInt_4() 位置 E:\UIH-Office\DSA\UT\SpecFlowDemo\Features\Calculator.feature:行号 104
+</pre></span><br></div>
+      </div>
+    </div>
+  </body><script language="javascript">
+        function ToggleClass(id) {
+        var elem = document.getElementById(id);
+        if (elem.style.display == "none") {
+        elem.style.display = "block";
+        }
+        else {
+        elem.style.display = "none";
+        }
+        }
+      </script><style>
+        body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+        h2 {
+        margin-top: 15px;
+        margin-bottom:10px;
+        }
+        pre {
+        white-space: pre-wrap;
+        }
+        .summary {font-family:monospace;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#d7e9fa;
+        }
+        .list-row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#ffffff;
+        }
+        .inner-row{
+        border: 2px solid #ffffff;
+        padding-left:1%;
+        margin-left:1%;
+        background-color:#ffffff;
+        }
+        .block{
+        width : 150px;
+        }
+        .leaf-division{
+        border: 2px solid #ffffff;
+        background-color:#e6eff7;
+        }
+        .pass { color: #0c0; }
+        .fail { color: #c00; }
+        .error-message { color : brown; }
+        .error-stack-trace { color: brown; }
+        .duration {float:right;padding-right:1%;}
+        .total-tests { font-size : 30px}
+        .test-run-time { font-size : 30px}
+        .pass-percentage { font-size : 30px}
+        .error-info{
+        margin-left:16px;
+        }
+      </style>
+</html>
